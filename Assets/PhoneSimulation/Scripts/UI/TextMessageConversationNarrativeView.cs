@@ -1,5 +1,6 @@
 using System;
 using Celeste.Input;
+using Celeste.Memory;
 using Celeste.Narrative;
 using Celeste.Narrative.UI;
 using Celeste.Tools.Attributes.GUI;
@@ -12,7 +13,7 @@ namespace DatingBros.PhoneSimulation.UI
         #region Properties and Fields
 
         [SerializeField] private RectTransform textContentRoot;
-        [SerializeField] private GameObject textPrefab;
+        [SerializeField] private GameObjectAllocator textPrefabAllocator;
         [SerializeField, InlineDataInInspector] private TextMessageUIController.VisualSettings playerMessageVisualSettings;
         [SerializeField, InlineDataInInspector] private TextMessageUIController.VisualSettings otherMessageVisualSettings;
         [SerializeField] private float nextMessageTapTimer;
@@ -23,6 +24,11 @@ namespace DatingBros.PhoneSimulation.UI
 
         #endregion
 
+        public override void OnNarrativeEnd()
+        {
+            textPrefabAllocator.DeallocateAll();
+        }
+        
         public override bool IsValidForNode(Celeste.FSM.FSMNode fsmNode)
         {
             return fsmNode is IDialogueNode && fsmNode is ICharacterNode;
@@ -33,7 +39,10 @@ namespace DatingBros.PhoneSimulation.UI
             IDialogueNode dialogueNode = fsmNode as IDialogueNode;
             bool isPlayer = dialogueNode.UIPosition == UIPosition.Right;
 
-            GameObject textPrefabInstance = Instantiate(textPrefab, textContentRoot);
+            GameObject textPrefabInstance = textPrefabAllocator.AllocateWithResizeIfNecessary();
+            textPrefabInstance.transform.SetParent(textContentRoot);
+            textPrefabInstance.SetActive(true);
+            
             TextMessageUIController textMessageUIController = textPrefabInstance.GetComponent<TextMessageUIController>();
             textMessageUIController.Hookup(dialogueNode.Dialogue, isPlayer ? playerMessageVisualSettings : otherMessageVisualSettings);
 

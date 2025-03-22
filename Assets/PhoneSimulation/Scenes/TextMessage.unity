@@ -320,6 +320,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1554579031}
   - {fileID: 1534698819}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -495,7 +496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textContentRoot: {fileID: 2081384197}
-  textPrefab: {fileID: 5370306248249848838, guid: ae431cfaff6e73741b667b1e3cad42a0, type: 3}
+  textPrefabAllocator: {fileID: 1554579032}
   playerMessageVisualSettings:
     xPivot: 1
     backgroundColour: {r: 0.7254902, g: 1, b: 0.7137255, a: 1}
@@ -504,6 +505,57 @@ MonoBehaviour:
     backgroundColour: {r: 1, g: 0.64705884, b: 0.64705884, a: 1}
   nextMessageTapTimer: 0.2
   nextMessage: {fileID: 11400000, guid: 55390b647b8f160438893e66d3663627, type: 2}
+--- !u!1 &1554579030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554579031}
+  - component: {fileID: 1554579032}
+  m_Layer: 5
+  m_Name: TextMessageAllocator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1554579031
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554579030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 491085281}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1554579032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554579030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed62cd2cf1b1004da5f1b728be3631a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5370306248249848838, guid: ae431cfaff6e73741b667b1e3cad42a0, type: 3}
+  defaultChunkSize: 10
+  allocateOnStart: 30
 --- !u!1 &1846227637
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,10 +751,34 @@ MonoBehaviour:
   graph: {fileID: 11400000, guid: 4192b2af147f8de4d87b268548d04b6a, type: 2}
   onRun:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1498384624}
+        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
+        m_MethodName: OnNarrativeBegin
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onStop:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1498384624}
+        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
+        m_MethodName: OnNarrativeEnd
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onNodeEnter:
     m_PersistentCalls:
       m_Calls:

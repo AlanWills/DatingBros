@@ -9,7 +9,8 @@
         "XNode",
         "Unity.TextMeshPro",
         "Celeste.Input",
-        "Celeste.Events"
+        "Celeste.Events",
+        "Celeste.Memory"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
