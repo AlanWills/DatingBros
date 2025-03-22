@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6371636b18eee4e4e9c33af41dedd4cb, type: 3}
+  m_Name: SceneSetCatalogue
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: dff9cb039413b4249990bf527a31af14, type: 2}
+  - {fileID: 11400000, guid: 80957d4104a2e80478755a16dcef5b07, type: 2}
+  - {fileID: 11400000, guid: ceed3db481ebec245bd5065ebb4c9b3a, type: 2}
+  - {fileID: 11400000, guid: 9c429797a4456254da71740cfe578f9a, type: 2}
+  - {fileID: 11400000, guid: 32e93b8d8792f544eb60518d934404db, type: 2}
+  importBehaviour: 2

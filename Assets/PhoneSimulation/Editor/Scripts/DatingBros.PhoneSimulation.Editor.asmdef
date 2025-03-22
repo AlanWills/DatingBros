@@ -1,0 +1,19 @@
+{
+    "name": "DatingBros.PhoneSimulation.Editor",
+    "rootNamespace": "DatingBrosEditor.PhoneSimulation",
+    "references": [
+        "Celeste.Narrative.Editor",
+        "DatingBros.PhoneSimulation"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

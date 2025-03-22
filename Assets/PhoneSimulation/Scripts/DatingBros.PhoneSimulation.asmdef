@@ -1,0 +1,23 @@
+{
+    "name": "DatingBros.PhoneSimulation",
+    "rootNamespace": "DatingBros.PhoneSimulation",
+    "references": [
+        "Celeste.Narrative",
+        "Celeste.Narrative.Nodes",
+        "Celeste.FSM",
+        "Celeste.Tools",
+        "XNode",
+        "Unity.TextMeshPro",
+        "Celeste.Input",
+        "Celeste.Events"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

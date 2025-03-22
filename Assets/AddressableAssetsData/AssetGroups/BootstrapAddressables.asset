@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BootstrapAddressables
+  m_EditorClassIdentifier: 
+  m_GroupName: BootstrapAddressables
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a01ed595290e61c4ebc5a339af10b510
+  m_SerializeEntries:
+  - m_GUID: 80957d4104a2e80478755a16dcef5b07
+    m_Address: Assets/EngineSystems/Scenes/EngineSystemsSceneSet.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BootstrapAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c353037263420f41a43b2a04a8dc1e1
+    m_Address: Assets/Celeste/Loading/Data/LoadJob/DisableFallbackLoadAssets.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BootstrapAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3955cef8251d45478b1d8c16fb91cdd
+    m_Address: Assets/Bootstrap/Jobs/LoadEngineSystemsSceneSet.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BootstrapAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6f1b75890dc3394a8f2798d31cbc167
+    m_Address: Assets/Bootstrap/Jobs/LoadGameSystemsSceneSet.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BootstrapAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9a2a123e46fed74292227de3abc142f
+    m_Address: Assets/Bootstrap/Jobs/DownloadCommonAddressables.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BootstrapAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dff9cb039413b4249990bf527a31af14
+    m_Address: Assets/GameSystems/Scenes/GameSystemsSceneSet.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BootstrapAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8263e3adb69a6e4e84043e368d367bb
+    m_Address: Assets/Bootstrap/Jobs/BootstrapLoadJob.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BootstrapAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a86f92c6465bcf04d94c7c5693052297, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bded105c0ab3c2947baa168dfc4d7fab, type: 2}
+    - {fileID: 11400000, guid: 768e675435523654ab8685b44ff13109, type: 2}
+    - {fileID: 11400000, guid: 4ee4a6fc9de6a20438156cad9321d324, type: 2}

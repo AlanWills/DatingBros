@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CommonAddressables
+  m_EditorClassIdentifier: 
+  m_GroupName: CommonAddressables
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 96f69db0bab6b414ab0272053b330932
+  m_SerializeEntries:
+  - m_GUID: 10ba0f09655a5f243b414d2b64c32ed8
+    m_Address: Assets/Celeste/Input/Data/Events/TripleTouch.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13b1cee57fbb72f44a516ef604d57345
+    m_Address: Assets/Celeste/Input/Data/Events/RightMouseButtonFirstDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14ae487a7b0d7524e8df71e5b3255874
+    m_Address: Assets/Celeste/Input/Data/Parameters/InputCamera.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15b9eca4d3a0b3044923f2861faa7254
+    m_Address: Assets/Celeste/Input/Data/Events/RightMouseButtonDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19f3c0a08f26f3d458a39303193882d8
+    m_Address: Assets/Celeste/Sound/Data/Events/PlayMusicOneShotWithRawClip.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d0dd8082f5d9f14cae4daf109e914b0
+    m_Address: Assets/Celeste/Input/Data/Events/LeftMouseButtonFirstUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2eabb83eedd9f1f40ad53dc01363b3d7
+    m_Address: Assets/Celeste/Sound/Data/Events/PlayMusicWithRawClip.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3012fb9f8902ed04ea7df508781a924a
+    m_Address: Assets/EngineSystems/Data/MusicSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32e93b8d8792f544eb60518d934404db
+    m_Address: Assets/PhoneSimulation/Scenes/TextMessageSceneSet.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e0f99d77fe7e284b98c11650a91e607
+    m_Address: Assets/Celeste/Input/Data/Events/LeftMouseButtonFirstDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4267ee0495522b748b2932da05a16789
+    m_Address: Assets/Celeste/Loading/Events/LoadContext.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48cb7be28c92f1944aed44df0a6c29c2
+    m_Address: Assets/Celeste/Sound/Data/Events/PlaySFXOneShotWithRawClip.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f6187cccfaf19d489311a506bf9683d
+    m_Address: EngineSystems
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a819ea16b858ac49b37e65c28d077b0
+    m_Address: Assets/Celeste/Input/Data/Events/RightMouseButtonFirstUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e60b11d2a4389641b69eadaf7d97ecd
+    m_Address: Assets/Celeste/Input/Data/Events/SingleTouch.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77d139f7eebbec040b12fa6b96d97e56
+    m_Address: Assets/Celeste/Sound/Data/Events/PlayMusicOneShotWithSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7daafd1b7b1f67440af45973254abcf7
+    m_Address: Bootstrap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BootstrapAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ed9008c9f02d0a468e3b188c757ef49
+    m_Address: Assets/Celeste/Input/Data/Events/MiddleMouseButtonFirstDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80d21d9030dfeee4ab10e4c4d0c06dc2
+    m_Address: Assets/Celeste/Input/Data/Events/LeftMouseButtonDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 842aa6707e0d9e34c88e612e95285ac7
+    m_Address: Loading
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b044a9344308e84ab49dbcf4963122b
+    m_Address: Assets/Celeste/Input/Data/Events/DoubleTouch.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fcb2e881d8bae8478459cdea4c03987
+    m_Address: Assets/Celeste/Sound/Data/Events/PlayMusicWithSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93d6f11910e12344e843d7153eace3db
+    m_Address: GameSystemsDebug
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94f9fb11816e21745a6eeb4fe1cbc8e4
+    m_Address: Assets/GameSystems/Data/SceneSetCatalogue.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9eea527a21393fe44b1f8f80ca1182b5
+    m_Address: TextMessageDebug
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a127cb131cd8877448a06df6884cb561
+    m_Address: GameSystems
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3aa7b1cee5289041a03094b573b5bf5
+    m_Address: Assets/Celeste/Input/Data/Events/MiddleMouseButtonFirstUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a70d2ad7caf24ba4c8d6bd16fd4f8958
+    m_Address: Assets/Celeste/Input/Data/Events/MiddleMouseButtonDown.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac7c838877b9a1743bf5058873818358
+    m_Address: Assets/Celeste/Localisation/Parameters/CurrentLanguage.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad3624de738022e498245c657cfaee38
+    m_Address: Assets/Celeste/Scene/Data/DefaultContextProvider.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae28b226b0f5c24488d154804a34afa7
+    m_Address: Assets/Celeste/Sound/Data/Events/PlaySFXWithSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0fb0445a9d2d2a43b4eeb93eb56ad05
+    m_Address: TextMessage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbb3cd569da2da048b519baf210661e9
+    m_Address: EngineSystemsDebug
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3c8e83cbd24afe4daec509763e42238
+    m_Address: Assets/EngineSystems/Data/SFXSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb16b0bde6c16aa45bf73b8e49de00f5
+    m_Address: Assets/EngineSystems/Data/SectionLogSettingsCatalogue.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef966062692627148a3dd8fe640184f2
+    m_Address: Assets/Celeste/Sound/Data/Events/PlaySFXWithRawClip.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1ffbf999282feb4abd8cc07f2836f7a
+    m_Address: Assets/Celeste/Sound/Data/Events/PlaySFXOneShotWithSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a86f92c6465bcf04d94c7c5693052297, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 978d74f1c2226f14ea9858d69811564c, type: 2}
+    - {fileID: 11400000, guid: 93555ca3c4f3dbe4389a085553b01723, type: 2}
+    - {fileID: 11400000, guid: 20f04d6328345e841a88274773117edd, type: 2}
