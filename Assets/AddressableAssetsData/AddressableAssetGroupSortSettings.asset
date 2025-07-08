@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f0314d707ba974d953e1d360ddc4d0, type: 3}
-  m_Name: AndroidAppVersion
+  m_Script: {fileID: 11500000, guid: dea69d41f90c6ea4fa55c27c1d60c145, type: 3}
+  m_Name: AddressableAssetGroupSortSettings
   m_EditorClassIdentifier: 
-  major: 0
-  minor: 1
-  build: 4
+  sortOrder:
+  - 0dcd0cb76bb060f47ae4fee14c991549
+  - 96f69db0bab6b414ab0272053b330932
+  - a01ed595290e61c4ebc5a339af10b510

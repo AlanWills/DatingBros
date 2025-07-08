@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f0314d707ba974d953e1d360ddc4d0, type: 3}
-  m_Name: AndroidAppVersion
+  m_Script: {fileID: 11500000, guid: 848b8f03661c442f8f2c0085ce5fb3fa, type: 3}
+  m_Name: PlayerConnectionRecord
   m_EditorClassIdentifier: 
-  major: 0
-  minor: 1
-  build: 4
+  availableMessages: {fileID: 11400000, guid: ad3e84c77aa9e0e45b1cc0b2a3d9a1b3, type: 2}

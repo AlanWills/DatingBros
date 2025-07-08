@@ -31,7 +31,7 @@ MonoBehaviour:
   development: 1
   isDebugBuild: 1
   waitForManagedDebugger: 0
-  buildOptions: 2097152
+  buildOptions: 2101249
   scriptingDefineSymbols: {fileID: 11400000, guid: 58e7309b3736afa41ba748b8cc1bb18a, type: 2}
   buildPreparationSteps: {fileID: 11400000, guid: 8818e8557b1a1224b817e6ef454636bd, type: 2}
   buildPostProcessSteps: {fileID: 11400000, guid: 7ee13698ced75f947bef926549d61f7e, type: 2}

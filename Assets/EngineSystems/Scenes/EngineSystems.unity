@@ -179,6 +179,10 @@ PrefabInstance:
       value: EngineSystems
       objectReference: {fileID: 0}
     - target: {fileID: 3513510158089742972, guid: b2406abb629933343bd3f0b6a9f3913e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3513510158089742972, guid: b2406abb629933343bd3f0b6a9f3913e, type: 3}
       propertyPath: sectionLogSettingsCatalogue
       value: 
       objectReference: {fileID: 11400000, guid: eb16b0bde6c16aa45bf73b8e49de00f5, type: 2}

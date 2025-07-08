@@ -42,7 +42,7 @@ MonoBehaviour:
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 2
-  m_overridePlayerVersion: res
+  m_overridePlayerVersion: resources
   m_GroupAssets:
   - {fileID: 11400000, guid: 5fb79c0e51f40ee49ab95e6d3dd7230b, type: 2}
   - {fileID: 11400000, guid: f9de8fb055f77664cb741984f2313775, type: 2}
@@ -61,9 +61,9 @@ MonoBehaviour:
       - m_Id: 0f8c4f412a364c14aa4194916f102524
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 8ae1bffecd562f94c8fa1ca8e5b927f2
-        m_Value: ServerData/[BuildTarget]
+        m_Value: ServerData/Android/Debug/0.1
       - m_Id: 9453b1ddf4fb35b49b7d297449db998a
-        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+        m_Value: https://storage.googleapis.com/celeste-games/ServerData/Android/Debug/0.1
       - m_Id: af4473976cfd4c04b9de8f97c94af084
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: ef35fcc5de82fc245b7107705466a8f7
