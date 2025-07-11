@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af018704691762d4aaaa11afef864d85, type: 3}
+  m_Name: DialogueTokens
+  m_EditorClassIdentifier: 
+  items:
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  startDelimiter: 123
+  endDelimiter: 125
