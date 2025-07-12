@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: CommonAddressables
   m_EditorClassIdentifier: 
   m_GroupName: CommonAddressables
-  m_Data:
-    m_SerializedData: []
   m_GUID: 96f69db0bab6b414ab0272053b330932
   m_SerializeEntries:
   - m_GUID: 10ba0f09655a5f243b414d2b64c32ed8
@@ -81,6 +79,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44c83a4f19b6a89419e927db3267ed35
+    m_Address: Narrative
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 48cb7be28c92f1944aed44df0a6c29c2
     m_Address: Assets/Celeste/Sound/Data/Events/PlaySFXOneShotWithRawClip.asset
