@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 357b7897891657843af8c475f4deddbd, type: 3}
-  m_Name: Background_MarkAndKylesFlat_Hallway
+  m_Script: {fileID: 11500000, guid: a52efe9e15dc7c445b80aa0d816831cd, type: 3}
+  m_Name: NarrativeFinished
   m_EditorClassIdentifier: 
-  guid: 1
-  sprite: {fileID: 21300000, guid: 2f81d4a5129db284184e902e542f50e1, type: 3}
+  helpText: 

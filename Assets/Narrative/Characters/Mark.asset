@@ -46,5 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   helpText: 
   isConstant: 1
-  constantValue: {fileID: 0}
+  constantValue: {fileID: 21300000, guid: f7d534c95976a9b4ab05cb20f23dc2b6, type: 3}
   referenceValue: {fileID: 0}

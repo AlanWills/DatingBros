@@ -480,7 +480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5811915737813175818, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
       propertyPath: m_Name
-      value: ScreenScaledCanvas
+      value: Canvas - Dialogue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -518,158 +518,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &344193866
-GameObject:
+--- !u!1001 &329945454
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 344193867}
-  - component: {fileID: 344193868}
-  - component: {fileID: 344193869}
-  m_Layer: 0
-  m_Name: NarrativeRuntime
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &344193867
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 344193866}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &344193868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 344193866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc08b7de9eb63704ea1c185eefa85db9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000, guid: 61c3eba00fc194ac6a611533f9570531, type: 2}
-  onRun:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 674653803}
-        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
-        m_MethodName: OnNarrativeBegin
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onStop:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 674653803}
-        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
-        m_MethodName: OnNarrativeEnd
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onNodeEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 674653803}
-        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
-        m_MethodName: OnNodeEnter
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onNodeUpdate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 674653803}
-        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
-        m_MethodName: OnNodeUpdate
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onNodeExit:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 674653803}
-        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
-        m_MethodName: OnNodeExit
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  startAutomatically: 1
-  lateUpdate: 0
---- !u!114 &344193869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 344193866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3c2c167d8138f94b8f96ff1b82578d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: d8333bda6f3275543bc1c1d024fd9315, type: 2}
-  logAddAndRemoveListener: 0
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 344193868}
-        m_TargetAssemblyTypeName: Celeste.FSM.FSMRuntime, Celeste.FSM
-        m_MethodName: TryGoToNextDefaultNode
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777970, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777971, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: m_Name
+      value: NarrativeAssetLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777981, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: assetsToLoad.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 779649805085777981, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
+      propertyPath: 'assetsToLoad.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1962119941}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1c8e2f49fd89db4aad206f5344030f9, type: 3}
 --- !u!114 &356395596 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1914714424111899509, guid: 415e092413317c94c95de6c1143411f4, type: 3}
@@ -713,6 +626,11 @@ GameObject:
   m_Component:
   - component: {fileID: 674653804}
   - component: {fileID: 674653803}
+  - component: {fileID: 674653805}
+  - component: {fileID: 674653806}
+  - component: {fileID: 674653809}
+  - component: {fileID: 674653808}
+  - component: {fileID: 674653807}
   m_Layer: 0
   m_Name: NarrativeViewManager
   m_TagString: Untagged
@@ -755,6 +673,151 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &674653805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674653802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c660adff7e622204485e688b6c6f1271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 7f25be976154b764581664e5f5b706c4, type: 2}
+  logAddAndRemoveListener: 0
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 674653803}
+        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
+        m_MethodName: OnNarrativeBegin
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &674653806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674653802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c660adff7e622204485e688b6c6f1271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: b5d5fa8fce511a44abd3e890b4f1adfd, type: 2}
+  logAddAndRemoveListener: 0
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 674653803}
+        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
+        m_MethodName: OnNarrativeEnd
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &674653807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674653802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1901a46390a961b4cb16933e6877fdb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: ed785eea6cd418349ad2bb9ceff1b585, type: 2}
+  logAddAndRemoveListener: 0
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 674653803}
+        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
+        m_MethodName: OnNodeExit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &674653808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674653802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1901a46390a961b4cb16933e6877fdb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 0e06d3367ac7d0a49ae01cb9d15663db, type: 2}
+  logAddAndRemoveListener: 0
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 674653803}
+        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
+        m_MethodName: OnNodeUpdate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &674653809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674653802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1901a46390a961b4cb16933e6877fdb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 1a4939bd07bd1314bb828336b47e31fc, type: 2}
+  logAddAndRemoveListener: 0
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 674653803}
+        m_TargetAssemblyTypeName: Celeste.Narrative.UI.NarrativeViewManager, Celeste.Narrative
+        m_MethodName: OnNodeEnter
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &682750872 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1416911534125520029, guid: ee99336ef033f2544aa843506bea8e73, type: 3}
@@ -764,6 +827,112 @@ GameObject:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6507014203731203134, guid: ee99336ef033f2544aa843506bea8e73, type: 3}
   m_PrefabInstance: {fileID: 1725311865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &804221754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811915737813175818, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      propertyPath: m_Name
+      value: Canvas - Background
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3537920495426798328, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1916642017}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+--- !u!224 &804221755 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5357122728965835387, guid: e5115c64891ee364c8a4948bf58cb9f3, type: 3}
+  m_PrefabInstance: {fileID: 804221754}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &867711383
 PrefabInstance:
@@ -1265,6 +1434,146 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69407a7634669ff47bd145cbb8f16bf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1496253086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1496253087}
+  - component: {fileID: 1496253088}
+  - component: {fileID: 1496253089}
+  - component: {fileID: 1496253090}
+  - component: {fileID: 1496253091}
+  m_Layer: 0
+  m_Name: NarrativeRuntimeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1496253087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496253086}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1496253088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496253086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfed2adc6f31a274fa9e110968185383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentChapterRecord: {fileID: 11400000, guid: 88de7bb82a7ebaa41925b1c9ede1f8a4, type: 2}
+  narrativeBegunEvent: {fileID: 11400000, guid: 7f25be976154b764581664e5f5b706c4, type: 2}
+  narrativeFinishedEvent: {fileID: 11400000, guid: b5d5fa8fce511a44abd3e890b4f1adfd, type: 2}
+  narrativeNodeEnter: {fileID: 11400000, guid: 1a4939bd07bd1314bb828336b47e31fc, type: 2}
+  narrativeNodeUpdate: {fileID: 11400000, guid: 0e06d3367ac7d0a49ae01cb9d15663db, type: 2}
+  narrativeNodeExit: {fileID: 11400000, guid: ed785eea6cd418349ad2bb9ceff1b585, type: 2}
+--- !u!114 &1496253089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496253086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c36f4df4d3a1e4b9ce0ec59f647351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: febfcfea603c38a48ada93ba3ca6d951, type: 2}
+  logAddAndRemoveListener: 0
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1496253088}
+        m_TargetAssemblyTypeName: Celeste.Narrative.NarrativeRuntimeManager, Celeste.Narrative
+        m_MethodName: OnNarrativeContextLoaded
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1496253090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496253086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f7071be08a89d4f97190255edc9699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}
+  logAddAndRemoveListener: 0
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1496253088}
+        m_TargetAssemblyTypeName: Celeste.Narrative.NarrativeRuntimeManager, Celeste.Narrative
+        m_MethodName: OnSetBackground
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1496253091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496253086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c2c167d8138f94b8f96ff1b82578d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: d8333bda6f3275543bc1c1d024fd9315, type: 2}
+  logAddAndRemoveListener: 0
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1496253088}
+        m_TargetAssemblyTypeName: Celeste.Narrative.NarrativeRuntimeManager, Celeste.Narrative
+        m_MethodName: OnTryGoToNextDefaultNode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1725311865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1486,6 +1795,96 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87686155b62231749b1d99fe77b77160, type: 3}
+--- !u!1 &1916642016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1916642017}
+  - component: {fileID: 1916642019}
+  - component: {fileID: 1916642018}
+  - component: {fileID: 1916642020}
+  m_Layer: 5
+  m_Name: Image - Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1916642017
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916642016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804221755}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1916642018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916642016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d88521bd0e0adee4990183113913fb96, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1916642019
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916642016}
+  m_CullTransparentMesh: 1
+--- !u!114 &1916642020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916642016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 2
+  m_AspectRatio: 1
 --- !u!1 &1932639442
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,6 +2030,84 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameEvent: {fileID: 11400000, guid: d8333bda6f3275543bc1c1d024fd9315, type: 2}
+--- !u!1 &1962119941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1962119942}
+  - component: {fileID: 1962119943}
+  - component: {fileID: 1962119944}
+  m_Layer: 0
+  m_Name: BackgroundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1962119942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962119941}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1962119943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962119941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf20f39d0bb4e82429321a6a4334aa55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 1916642018}
+  backgroundRatioFitter: {fileID: 1916642020}
+  backgroundSettings: {fileID: 11400000, guid: dd17e5d8b5251714d91f34dc2abbe8b2, type: 2}
+--- !u!114 &1962119944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962119941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c660adff7e622204485e688b6c6f1271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 7f25be976154b764581664e5f5b706c4, type: 2}
+  logAddAndRemoveListener: 0
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1962119943}
+        m_TargetAssemblyTypeName: Celeste.Narrative.Backgrounds.BackgroundManager,
+          Celeste.Narrative
+        m_MethodName: OnNarrativeBegin
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &2027743795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1862,7 +2339,10 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 329945454}
   - {fileID: 1834606293}
-  - {fileID: 344193867}
+  - {fileID: 1496253087}
   - {fileID: 674653804}
+  - {fileID: 1962119942}
+  - {fileID: 804221754}
   - {fileID: 287670830}

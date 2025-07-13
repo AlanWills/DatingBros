@@ -85,11 +85,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45f6320e97c7aca43bd9e5c6c552d255
+    m_Address: Assets/MainMenu/Scenes/MainMenuSceneSet.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 48cb7be28c92f1944aed44df0a6c29c2
     m_Address: Assets/Celeste/Sound/Data/Events/PlaySFXOneShotWithRawClip.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49c496eba093b4b4e8e2080af919473e
+    m_Address: MainMenu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4f6187cccfaf19d489311a506bf9683d
     m_Address: EngineSystems
@@ -102,6 +112,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d947dbd9dd7049968578e41da93d458
+    m_Address: Assets/Narrative/Events/SetBackground.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6e60b11d2a4389641b69eadaf7d97ecd
     m_Address: Assets/Celeste/Input/Data/Events/SingleTouch.asset
@@ -220,6 +235,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8b4702366d0e4e53b7c4a2fb332c869
+    m_Address: Assets/Narrative/Backgrounds/BackgroundCatalogue.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eb16b0bde6c16aa45bf73b8e49de00f5
     m_Address: Assets/EngineSystems/Data/SectionLogSettingsCatalogue.asset
