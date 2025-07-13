@@ -3673,9 +3673,9 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   guid: 2c6b8add-fbc2-4090-a20f-a00edc539995
-  dialogue: 'MARK, with a slightly bemused expression, walks into the doorway on
-    his left to see his flatmate KYLE wearing headphones and clearly engrossed in
-    a video game.
+  dialogue: '{MARK}, with a slightly bemused expression, walks into the doorway on
+    his left to see his flatmate {KYLE} wearing headphones and clearly engrossed
+    in a video game.
 
 '
   localisationKey: {fileID: 0}
@@ -3685,7 +3685,7 @@ MonoBehaviour:
   dialogueTokens:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
-  - key: Kyle
+  - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   currentLanguage: {fileID: 0}
