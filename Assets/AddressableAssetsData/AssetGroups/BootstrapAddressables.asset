@@ -36,7 +36,8 @@ MonoBehaviour:
   - m_GUID: b07c79ebfc459d145bd9ec8c397eac12
     m_Address: Assets/Bootstrap/Jobs/LoadMainMenuSceneSet.asset
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - BootstrapAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c6f1b75890dc3394a8f2798d31cbc167
     m_Address: Assets/Bootstrap/Jobs/LoadGameSystemsSceneSet.asset

@@ -66,7 +66,8 @@ MonoBehaviour:
   - m_GUID: 32e93b8d8792f544eb60518d934404db
     m_Address: Assets/PhoneSimulation/Scenes/TextMessageSceneSet.asset
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3e0f99d77fe7e284b98c11650a91e607
     m_Address: Assets/Celeste/Input/Data/Events/LeftMouseButtonFirstDown.asset
@@ -83,12 +84,14 @@ MonoBehaviour:
   - m_GUID: 44c83a4f19b6a89419e927db3267ed35
     m_Address: Narrative
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 45f6320e97c7aca43bd9e5c6c552d255
     m_Address: Assets/MainMenu/Scenes/MainMenuSceneSet.asset
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 48cb7be28c92f1944aed44df0a6c29c2
     m_Address: Assets/Celeste/Sound/Data/Events/PlaySFXOneShotWithRawClip.asset
@@ -99,10 +102,17 @@ MonoBehaviour:
   - m_GUID: 49c496eba093b4b4e8e2080af919473e
     m_Address: MainMenu
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4f6187cccfaf19d489311a506bf9683d
     m_Address: EngineSystems
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50039586d3d71834c8dbb6af9cae319c
+    m_Address: Assets/Celeste/Debug/Data/Parameters/IsDebugBuild.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - CommonAddressables
@@ -116,7 +126,8 @@ MonoBehaviour:
   - m_GUID: 6d947dbd9dd7049968578e41da93d458
     m_Address: Assets/Narrative/Events/SetBackground.asset
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6e60b11d2a4389641b69eadaf7d97ecd
     m_Address: Assets/Celeste/Input/Data/Events/SingleTouch.asset
@@ -134,7 +145,7 @@ MonoBehaviour:
     m_Address: Bootstrap
     m_ReadOnly: 0
     m_SerializedLabels:
-    - BootstrapAddressables
+    - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7ed9008c9f02d0a468e3b188c757ef49
     m_Address: Assets/Celeste/Input/Data/Events/MiddleMouseButtonFirstDown.asset
@@ -178,10 +189,17 @@ MonoBehaviour:
     m_SerializedLabels:
     - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e94da5cef2b0304e9fd5e17d31aa918
+    m_Address: Assets/Celeste/Loading/Parameters/ShouldFallbackLoadAssets.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CommonAddressables
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9eea527a21393fe44b1f8f80ca1182b5
     m_Address: TextMessageDebug
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a127cb131cd8877448a06df6884cb561
     m_Address: GameSystems
@@ -222,7 +240,8 @@ MonoBehaviour:
   - m_GUID: d0fb0445a9d2d2a43b4eeb93eb56ad05
     m_Address: TextMessage
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dbb3cd569da2da048b519baf210661e9
     m_Address: EngineSystemsDebug
@@ -239,7 +258,8 @@ MonoBehaviour:
   - m_GUID: e8b4702366d0e4e53b7c4a2fb332c869
     m_Address: Assets/Narrative/Backgrounds/BackgroundCatalogue.asset
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eb16b0bde6c16aa45bf73b8e49de00f5
     m_Address: Assets/EngineSystems/Data/SectionLogSettingsCatalogue.asset

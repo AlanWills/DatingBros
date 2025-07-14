@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1da89aae902a7d54293c81b870a1894f, type: 3}
-  m_Name: BackgroundCatalogue
+  m_Script: {fileID: 11500000, guid: 357b7897891657843af8c475f4deddbd, type: 3}
+  m_Name: Background_MarkAndKylesFlat_KylesRoom
   m_EditorClassIdentifier: 
-  items:
-  - {fileID: 11400000, guid: abd25c1b2555f4dd782e37c83a05bc32, type: 2}
-  - {fileID: 11400000, guid: ebb38df5d0103ab409736f36be38c420, type: 2}
+  guid: 2
+  sprite: {fileID: 21300000, guid: 795ad7b267be19f43b043368e3427d69, type: 3}

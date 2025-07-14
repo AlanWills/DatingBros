@@ -18,7 +18,7 @@ MonoBehaviour:
   buildUploadUrl: celeste-games/
   buildUploadCredentials: 
   addressablesEnabled: 1
-  playerOverrideVersion: resources
+  playerOverrideVersion: '{major}_{minor}'
   addressablesBuildDirectory: ServerData/{build_target}/{environment}/{major}.{minor}
   addressablesLoadDirectory: https://storage.googleapis.com/celeste-games/ServerData/{build_target}/{environment}/{major}.{minor}
   addressablesUploadURL: celeste-games/
@@ -41,7 +41,7 @@ MonoBehaviour:
   updateAssetsPreparationSteps: {fileID: 11400000, guid: 67f8227a7b4e2a142b73eb766f5f2167, type: 2}
   updateAssetsPostProcessSteps: {fileID: 11400000, guid: 4495bd1622a708847b9f40e0417394f0, type: 2}
   buildAppBundle: 0
-  buildSymbols: 0
+  debugSymbolLevel: 1
   minifyRelease: 0
   keystorePassword: 
   keyAliasName: 
