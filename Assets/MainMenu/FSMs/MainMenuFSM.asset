@@ -57,7 +57,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: ' '
-        node: {fileID: 5209605329466217347}
+        node: {fileID: 6399189480910323054}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -68,7 +68,7 @@ MonoBehaviour:
   - {fileID: -8017345891218936473}
 --- !u!114 &-5058992095302126468
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -97,59 +97,9 @@ MonoBehaviour:
   nodes:
   - {fileID: -7759486304614132331}
   - {fileID: 6399189480910323054}
-  - {fileID: 5209605329466217347}
-  - {fileID: 0}
   startNode: {fileID: -7759486304614132331}
   parameters:
   - {fileID: -5058992095302126468}
---- !u!114 &5209605329466217347
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ab47d0ceb394ede863cdc8e698371ea, type: 3}
-  m_Name: DEBUG!! REMOVE ASAP
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 56, y: -8}
-  ports:
-    keys:
-    - ' '
-    - 
-    values:
-    - _fieldName: ' '
-      _node: {fileID: 5209605329466217347}
-      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: PlayCurrentChapter
-        node: {fileID: -7759486304614132331}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: 
-      _node: {fileID: 5209605329466217347}
-      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: ' '
-        node: {fileID: 6399189480910323054}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 1
-  guid: 170bdb4a-8cf4-4861-9c4a-7253f04ca510
-  chapterRecordValue: {fileID: 11400000, guid: 88de7bb82a7ebaa41925b1c9ede1f8a4, type: 2}
-  narrativeRecord: {fileID: 11400000, guid: 5199648fd01fabc4cb720882018e24e3, type: 2}
-  newChaptersStory: {fileID: 11400000, guid: ae6c91019797e334ba05880a01980a88, type: 2}
-  newChapterValue: {fileID: 11400000, guid: 4e5f9774a92c4da45a2db5e1c826c26e, type: 2}
 --- !u!114 &6399189480910323054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -163,7 +113,7 @@ MonoBehaviour:
   m_Name: Execute Load Job
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 360, y: -8}
+  position: {x: 24, y: -8}
   ports:
     keys:
     - ' '
@@ -178,8 +128,8 @@ MonoBehaviour:
       - fieldName: 
         node: {fileID: 0}
         reroutePoints: []
-      - fieldName: 
-        node: {fileID: 5209605329466217347}
+      - fieldName: PlayCurrentChapter
+        node: {fileID: -7759486304614132331}
         reroutePoints: []
       _direction: 0
       _connectionType: 0

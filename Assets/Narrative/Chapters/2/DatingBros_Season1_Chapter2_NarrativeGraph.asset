@@ -12,7 +12,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ecfe4d61829c82418aece6785c1d391, type: 3}
   m_Name: DatingBros_Season1_Chapter2_NarrativeGraph
   m_EditorClassIdentifier: 
-  nodes: []
-  startNode: {fileID: 0}
-  parameters: []
+  nodes:
+  - {fileID: 3895512111172955203}
+  startNode: {fileID: 3895512111172955203}
+  parameters:
+  - {fileID: 2919003909464065762}
   finishNode: {fileID: 0}
+--- !u!114 &2919003909464065762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6c1ee2a4588f74f8eb24b73dd8d327, type: 3}
+  m_Name: _argument
+  m_EditorClassIdentifier: 
+  helpText: 
+  isConstant: 1
+  constantValue: {fileID: 11400000, guid: ebb38df5d0103ab409736f36be38c420, type: 2}
+  referenceValue: {fileID: 0}
+--- !u!114 &3895512111172955203
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5647ad3ef976a0a419375aa3eeab73f3, type: 3}
+  m_Name: Background Event Raiser
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 14968, y: 72}
+  ports:
+    keys:
+    - ' '
+    - 
+    - argument
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 3895512111172955203}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 3895512111172955203}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: argument
+      _node: {fileID: 3895512111172955203}
+      _typeQualifiedName: Celeste.Narrative.Parameters.BackgroundReference, Celeste.Narrative,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  guid: bc10d9e3-2168-4742-bb75-624c25608aa6
+  argument: {fileID: 2919003909464065762}
+  toRaise: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}

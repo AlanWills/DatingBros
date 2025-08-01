@@ -17,4 +17,5 @@ MonoBehaviour:
   storyDescription: 
   storyThumbnail: {fileID: 0}
   chapters:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 4e5f9774a92c4da45a2db5e1c826c26e, type: 2}
+  - {fileID: 11400000, guid: d6eff7941358d48ef9a93e0b2082af62, type: 2}

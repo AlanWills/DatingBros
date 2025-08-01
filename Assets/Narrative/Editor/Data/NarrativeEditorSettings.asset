@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: NarrativeEditorSettings
   m_EditorClassIdentifier: 
   narratorCharacter: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  defaultSetBackgroundEvent: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}
