@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f948062586aba35438492640fa8f75a4, type: 3}
-  m_Name: ChapterCatalogue
+  m_Script: {fileID: 11500000, guid: 1ecfe4d61829c82418aece6785c1d391, type: 3}
+  m_Name: DatingBros_Season1_Chapter2_NarrativeGraph
   m_EditorClassIdentifier: 
-  items:
-  - {fileID: 11400000, guid: 4e5f9774a92c4da45a2db5e1c826c26e, type: 2}
-  - {fileID: 11400000, guid: d6eff7941358d48ef9a93e0b2082af62, type: 2}
+  nodes: []
+  startNode: {fileID: 0}
+  parameters: []
+  finishNode: {fileID: 0}

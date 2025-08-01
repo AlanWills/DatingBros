@@ -10,17 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e93f3e5b247552449e85ec62379fff1, type: 3}
-  m_Name: DatingBros_Season1_Chapter1
+  m_Name: DatingBros_Season1_Chapter2
   m_EditorClassIdentifier: 
-  guid: 1
-  chapterName: Good News, Bad News
+  guid: 2
+  chapterName: Preparation Operation
   chapterDescription: 
   chapterThumbnail: {fileID: 0}
-  narrativeGraph: {fileID: 11400000, guid: 61c3eba00fc194ac6a611533f9570531, type: 2}
+  narrativeGraph: {fileID: 11400000, guid: de43f05e20760442697471a7016e7940, type: 2}
   twineStory: {fileID: 0}
-  characters:
-  - {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  - {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
-  - {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  characters: []
   stringValues: []
   boolValues: []
