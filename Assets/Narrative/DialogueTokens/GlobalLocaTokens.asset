@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af018704691762d4aaaa11afef864d85, type: 3}
-  m_Name: DialogueTokens
+  m_Name: GlobalLocaTokens
   m_EditorClassIdentifier: 
   items:
   - key: MARK

@@ -13,4 +13,15 @@ MonoBehaviour:
   m_Name: NarrativeEditorSettings
   m_EditorClassIdentifier: 
   narratorCharacter: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  globalLocaTokens: {fileID: 11400000, guid: e6ecc22c9bf8641d697d82326ea224f3, type: 2}
   defaultSetBackgroundEvent: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}
+  hasAddDialogueNodeShortcut: 1
+  addDialogueNodeShortcutKey: 100
+  hasAddNarratorNodeShortcut: 1
+  addNarratorNodeShortcutKey: 110
+  hasAddChoiceNodeShortcut: 1
+  addChoiceNodeShortcutKey: 99
+  hasAddTimedChoiceNodeShortcut: 1
+  addTimedChoiceNodeShortcutKey: 116
+  hasAddSetBackgroundNodeShortcut: 1
+  addSetBackgroundNodeShortcutKey: 98
