@@ -1712,7 +1712,6 @@ MonoBehaviour:
   nodes:
   - {fileID: 3895512111172955203}
   - {fileID: 503870681431087202}
-  - {fileID: 2167199515885998493}
   - {fileID: 89284090883600969}
   - {fileID: 8499542562649784310}
   - {fileID: 7747760033819947054}
@@ -2146,48 +2145,6 @@ MonoBehaviour:
   dialogueTokens: []
   character: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   currentLanguage: {fileID: 0}
---- !u!114 &2167199515885998493
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc547d33d073c2d408223d939d56c48b, type: 3}
-  m_Name: Narrator
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -478.23288, y: -517.6057}
-  ports:
-    keys:
-    - ' '
-    - 
-    values:
-    - _fieldName: ' '
-      _node: {fileID: 2167199515885998493}
-      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: 
-      _node: {fileID: 2167199515885998493}
-      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 1
-  guid: 947e7159-f66a-4d04-a0ad-f893b907dbc8
-  dialogue: 
-  dialogueType: 1
-  dialogueTokens: []
-  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
 --- !u!114 &2473329845495722086
 MonoBehaviour:
   m_ObjectHideFlags: 1

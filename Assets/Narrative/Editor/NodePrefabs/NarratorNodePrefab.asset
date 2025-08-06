@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6603445591777781947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  guid: 2eb6a07c-5a97-4254-83b7-776530204492
+  dialogue: 
+  localisationKey: {fileID: 0}
+  isLocalised: 0
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  currentLanguage: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ef9702920b494ead792ad3a81b4f52, type: 3}
+  m_Name: NarratorNodePrefab
+  m_EditorClassIdentifier: 
+  asset: {fileID: -6603445591777781947}

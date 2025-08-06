@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1135723492797964863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae91a3c668a16b24ea194e8d20804f2d, type: 3}
+  m_Name: Timed Choice
+  m_EditorClassIdentifier: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  guid: b5d411ce-a17b-44bf-9451-fba8d031b836
+  dialogue: 
+  localisationKey: {fileID: 0}
+  isLocalised: 0
+  dialogueType: 1
+  uiPosition: 0
+  dialogueTokens: []
+  character: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  allowedTime: 4
+  choices: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ef9702920b494ead792ad3a81b4f52, type: 3}
+  m_Name: TimedChoiceNodePrefab
+  m_EditorClassIdentifier: 
+  asset: {fileID: -1135723492797964863}

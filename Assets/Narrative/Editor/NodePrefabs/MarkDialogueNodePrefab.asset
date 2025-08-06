@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8490213125015651995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  guid: 288b9384-86cd-4702-a5aa-3d567de7ca44
+  dialogue: 
+  localisationKey: {fileID: 0}
+  isLocalised: 0
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  currentLanguage: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6bfef31b53469aae423d80fc56c23d, type: 3}
+  m_Name: MarkDialogueNodePrefab
+  m_EditorClassIdentifier: 
+  asset: {fileID: -8490213125015651995}

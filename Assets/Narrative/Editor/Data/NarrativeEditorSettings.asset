@@ -12,16 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7606b7471c4cef82e1ca1a3c3838ef, type: 3}
   m_Name: NarrativeEditorSettings
   m_EditorClassIdentifier: 
-  narratorCharacter: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   globalLocaTokens: {fileID: 11400000, guid: e6ecc22c9bf8641d697d82326ea224f3, type: 2}
-  defaultSetBackgroundEvent: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}
-  hasAddDialogueNodeShortcut: 1
-  addDialogueNodeShortcutKey: 100
-  hasAddNarratorNodeShortcut: 1
-  addNarratorNodeShortcutKey: 110
-  hasAddChoiceNodeShortcut: 1
-  addChoiceNodeShortcutKey: 99
-  hasAddTimedChoiceNodeShortcut: 1
-  addTimedChoiceNodeShortcutKey: 116
-  hasAddSetBackgroundNodeShortcut: 1
-  addSetBackgroundNodeShortcutKey: 98
+  dialogueNodePrefab: {fileID: 11400000, guid: e80397d7c4c9a40b9bb2d1b70746d65a, type: 2}
+  narratorNodePrefab: {fileID: 11400000, guid: 4fe39444e99324c19b4c08b5797ea721, type: 2}
+  choiceNodePrefab: {fileID: 11400000, guid: b712d4c6559474e74aa0d0a80e00e2bd, type: 2}
+  timedChoiceNodePrefab: {fileID: 11400000, guid: c8823038b60244f8ba6434f3eb82c2c0, type: 2}
+  setBackgroundNodePrefab: {fileID: 11400000, guid: f140174cb01b24e61a93ff6da2bd4a21, type: 2}
+  fsmNodePrefabsWithShortcuts:
+  - Prefab: {fileID: 11400000, guid: f140174cb01b24e61a93ff6da2bd4a21, type: 2}
+    ShortcutKey: 98
+  - Prefab: {fileID: 11400000, guid: f54ab8c14ce7a4045a0cd9ff85b69126, type: 2}
+    ShortcutKey: 49
+  - Prefab: {fileID: 11400000, guid: ce7137670246a44a791b071fc0b1a6ad, type: 2}
+    ShortcutKey: 50
+  narrativeNodePrefabsWithShortcuts:
+  - Prefab: {fileID: 11400000, guid: e80397d7c4c9a40b9bb2d1b70746d65a, type: 2}
+    ShortcutKey: 100
+  - Prefab: {fileID: 11400000, guid: 4fe39444e99324c19b4c08b5797ea721, type: 2}
+    ShortcutKey: 110
+  - Prefab: {fileID: 11400000, guid: b712d4c6559474e74aa0d0a80e00e2bd, type: 2}
+    ShortcutKey: 99
+  - Prefab: {fileID: 11400000, guid: c8823038b60244f8ba6434f3eb82c2c0, type: 2}
+    ShortcutKey: 116
