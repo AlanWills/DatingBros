@@ -2271,6 +2271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf20f39d0bb4e82429321a6a4334aa55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundRectTransform: {fileID: 1916642017}
   backgroundImage: {fileID: 1916642018}
   backgroundRatioFitter: {fileID: 1916642020}
   backgroundSettings: {fileID: 11400000, guid: dd17e5d8b5251714d91f34dc2abbe8b2, type: 2}
