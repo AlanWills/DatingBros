@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ef9702920b494ead792ad3a81b4f52, type: 3}
+  m_Name: AnimateBackgroundNodePrefab
+  m_EditorClassIdentifier: 
+  asset: {fileID: 657699860732305161}
+--- !u!114 &657699860732305161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbf3f7060e84fffa15abf88018abc56, type: 3}
+  m_Name: AnimateBackgroundRequestNode
+  m_EditorClassIdentifier: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  guid: 04bec881-fa4f-4939-a05e-e53a173fe865
+  animateBackgroundRequest: {fileID: 11400000, guid: 045de853e40bf4e558beed33c265d447, type: 2}
+  args:
+    AnimationTime: 1.5
+    StartOffset: 0
+    FinishOffset: 0.5
+    UseAnimCurve: 1
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2.916171
+        outSlope: 2.916171
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.015199494
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

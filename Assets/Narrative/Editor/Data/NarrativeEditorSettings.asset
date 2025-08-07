@@ -34,3 +34,5 @@ MonoBehaviour:
     ShortcutKey: 99
   - Prefab: {fileID: 11400000, guid: c8823038b60244f8ba6434f3eb82c2c0, type: 2}
     ShortcutKey: 116
+  - Prefab: {fileID: 11400000, guid: c09b946e6c078433f89e32afa6105189, type: 2}
+    ShortcutKey: 51

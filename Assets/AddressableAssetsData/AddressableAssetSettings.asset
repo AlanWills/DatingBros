@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 96f69db0bab6b414ab0272053b330932
   m_currentHash:
     serializedVersion: 2
-    Hash: 87a54f29bb965fb7e5ffedb5cbf44003
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_CatalogRequestsTimeout: 0
@@ -57,7 +57,7 @@ MonoBehaviour:
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 2
-  m_overridePlayerVersion: resources
+  m_overridePlayerVersion: 0_1
   m_GroupAssets:
   - {fileID: 11400000, guid: 5fb79c0e51f40ee49ab95e6d3dd7230b, type: 2}
   - {fileID: 11400000, guid: f9de8fb055f77664cb741984f2313775, type: 2}
