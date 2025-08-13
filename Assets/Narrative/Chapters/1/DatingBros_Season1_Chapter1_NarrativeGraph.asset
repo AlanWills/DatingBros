@@ -595,7 +595,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Wait
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &-6715487145199871162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -680,7 +680,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Scare
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &-6439417397373149459
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1906,7 +1906,6 @@ MonoBehaviour:
     keys:
     - ' '
     - 
-    - argument
     values:
     - _fieldName: ' '
       _node: {fileID: -3594008900606376535}
@@ -1929,18 +1928,11 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 1
-    - _fieldName: argument
-      _node: {fileID: -3594008900606376535}
-      _typeQualifiedName: Celeste.Narrative.Parameters.BackgroundReference, Celeste.Narrative,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
   guid: 5eebf008-b260-4316-b8a4-608696a69ae0
-  argument: {fileID: -6640278295426809214}
   toRaise: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}
+  argument:
+    Background: {fileID: 11400000, guid: abd25c1b2555f4dd782e37c83a05bc32, type: 2}
+    Offset: 0.5
 --- !u!114 &-3286841971845041102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2005,7 +1997,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Tell The Truth
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &-3228723211964722662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2870,7 +2862,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Explain How Time Is Made U
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &-1632581036257149845
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3253,7 +3245,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Shout
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &-181532254685738739
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3328,7 +3320,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Go Back To Playing Game
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &-67581103430079793
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6017,7 +6009,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Lie
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &8675603890240512817
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6036,7 +6028,6 @@ MonoBehaviour:
     keys:
     - ' '
     - 
-    - argument
     values:
     - _fieldName: ' '
       _node: {fileID: 8675603890240512817}
@@ -6062,18 +6053,11 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 1
-    - _fieldName: argument
-      _node: {fileID: 8675603890240512817}
-      _typeQualifiedName: Celeste.Narrative.Parameters.BackgroundReference, Celeste.Narrative,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
   guid: 6c337fbd-ea36-4e2f-8f6f-4ce80b81830f
-  argument: {fileID: -7792473750725301583}
   toRaise: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}
+  argument:
+    Background: {fileID: 11400000, guid: ebb38df5d0103ab409736f36be38c420, type: 2}
+    Offset: 0
 --- !u!114 &8685159109381565630
 MonoBehaviour:
   m_ObjectHideFlags: 1

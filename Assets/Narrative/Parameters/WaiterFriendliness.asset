@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 357b7897891657843af8c475f4deddbd, type: 3}
-  m_Name: Background_MarkAndKylesFlat_KylesRoom
+  m_Script: {fileID: 11500000, guid: d81649ea074f1e34ab9148dcbfaec9a2, type: 3}
+  m_Name: WaiterFriendliness
   m_EditorClassIdentifier: 
-  guid: 2
-  sprite: {fileID: 21300000, guid: 795ad7b267be19f43b043368e3427d69, type: 3}
-  defaultOffset: 0
+  helpText: 
+  defaultValue: 0
+  onValueChanged: {fileID: 0}
+  invokeValueChangedSilently: 1
+  valueConstraints: []

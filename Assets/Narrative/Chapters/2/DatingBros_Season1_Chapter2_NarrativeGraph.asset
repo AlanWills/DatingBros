@@ -631,19 +631,9 @@ MonoBehaviour:
   position: {x: 18057.855, y: 68.74229}
   ports:
     keys:
-    - argument
     - ' '
     - 
     values:
-    - _fieldName: argument
-      _node: {fileID: -6844431493622635567}
-      _typeQualifiedName: Celeste.Narrative.Parameters.BackgroundReference, Celeste.Narrative,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: ' '
       _node: {fileID: -6844431493622635567}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -663,8 +653,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   guid: 15f64507-e6a7-48cd-a402-047514da6592
-  argument: {fileID: 5730144678340077046}
   toRaise: {fileID: 0}
+  argument:
+    Background: {fileID: 0}
+    Offset: 0
 --- !u!114 &-6797756064319524650
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -785,7 +777,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Flannel Shirt and Blue Chinos
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &-6643733507618998416
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1382,7 +1374,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Tell The Truth
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &-5370454123434026156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2939,7 +2931,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Play A Trick
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &-2120479206245006961
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4265,7 +4257,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Blazer and Brown Chinos
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &1120539793952183407
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4282,7 +4274,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Black Suit
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &1206196003083849957
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4351,19 +4343,9 @@ MonoBehaviour:
   position: {x: 19112, y: 504}
   ports:
     keys:
-    - argument
     - ' '
     - 
     values:
-    - _fieldName: argument
-      _node: {fileID: 1294539761159543487}
-      _typeQualifiedName: Celeste.Narrative.Parameters.BackgroundReference, Celeste.Narrative,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: ' '
       _node: {fileID: 1294539761159543487}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -4389,8 +4371,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   guid: 30e20178-f541-4cbd-a4b7-4716d1a8b1e7
-  argument: {fileID: -1185353426728462726}
   toRaise: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}
+  argument:
+    Background: {fileID: 11400000, guid: abd25c1b2555f4dd782e37c83a05bc32, type: 2}
+    Offset: 0.5
 --- !u!114 &1356384434339049038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4515,7 +4499,7 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: Polo Shirt and Jeans
-  dialogueType: 1
+  dialogueType: 3
 --- !u!114 &1477288759177439420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4839,7 +4823,7 @@ MonoBehaviour:
   m_Name: Animate Background
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6104, y: 312}
+  position: {x: 6104, y: 344}
   ports:
     keys:
     - ' '
@@ -5656,7 +5640,6 @@ MonoBehaviour:
     keys:
     - ' '
     - 
-    - argument
     values:
     - _fieldName: ' '
       _node: {fileID: 3895512111172955203}
@@ -5679,18 +5662,11 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 1
-    - _fieldName: argument
-      _node: {fileID: 3895512111172955203}
-      _typeQualifiedName: Celeste.Narrative.Parameters.BackgroundReference, Celeste.Narrative,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
   guid: bc10d9e3-2168-4742-bb75-624c25608aa6
-  argument: {fileID: 2919003909464065762}
   toRaise: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}
+  argument:
+    Background: {fileID: 11400000, guid: ebb38df5d0103ab409736f36be38c420, type: 2}
+    Offset: 0
 --- !u!114 &4045436010359192283
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6455,19 +6431,9 @@ MonoBehaviour:
   position: {x: 18057.855, y: 68.74229}
   ports:
     keys:
-    - argument
     - ' '
     - 
     values:
-    - _fieldName: argument
-      _node: {fileID: 5893202915836750173}
-      _typeQualifiedName: Celeste.Narrative.Parameters.BackgroundReference, Celeste.Narrative,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: ' '
       _node: {fileID: 5893202915836750173}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -6487,8 +6453,10 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   guid: 5f17ad05-75f5-4e78-a9bb-509f1391f5e1
-  argument: {fileID: 4555157048433047250}
   toRaise: {fileID: 0}
+  argument:
+    Background: {fileID: 0}
+    Offset: 0
 --- !u!114 &6090185800715150486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7484,7 +7452,6 @@ MonoBehaviour:
     keys:
     - ' '
     - 
-    - argument
     values:
     - _fieldName: ' '
       _node: {fileID: 7903369594116464584}
@@ -7510,18 +7477,11 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 1
-    - _fieldName: argument
-      _node: {fileID: 7903369594116464584}
-      _typeQualifiedName: Celeste.Narrative.Parameters.BackgroundReference, Celeste.Narrative,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
   guid: 7b91c62c-77b9-4789-ab1f-28109ef7ff0f
-  argument: {fileID: 2842816185443774128}
   toRaise: {fileID: 11400000, guid: 6d947dbd9dd7049968578e41da93d458, type: 2}
+  argument:
+    Background: {fileID: 11400000, guid: 6aa1648a164ad44e6b69f122a8fc8797, type: 2}
+    Offset: 0
 --- !u!114 &8063007978827776028
 MonoBehaviour:
   m_ObjectHideFlags: 1

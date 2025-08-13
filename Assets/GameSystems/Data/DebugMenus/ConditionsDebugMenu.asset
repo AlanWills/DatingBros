@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 357b7897891657843af8c475f4deddbd, type: 3}
-  m_Name: Background_MarkAndKylesFlat_KylesRoom
+  m_Script: {fileID: 11500000, guid: ea9d960df6ae2f240b70ec82868b8faf, type: 3}
+  m_Name: ConditionsDebugMenu
   m_EditorClassIdentifier: 
-  guid: 2
-  sprite: {fileID: 21300000, guid: 795ad7b267be19f43b043368e3427d69, type: 3}
-  defaultOffset: 0
+  displayName: Conditions
+  menuPriority: 0
+  conditionCatalogue: {fileID: 11400000, guid: c815a80b681205c4bae2bd3d21708f92, type: 2}
+  conditionsPerPage: 20
