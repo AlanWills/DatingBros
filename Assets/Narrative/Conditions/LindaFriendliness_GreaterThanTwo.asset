@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1027829643222853632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c9a38be80386d4ea8852ca12654382, type: 3}
+  m_Name: LindaFriendliness_GreaterThanTwo_target
+  m_EditorClassIdentifier: 
+  helpText: 
+  isConstant: 1
+  constantValue: 2
+  referenceValue: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef069c1ce8780243b544595a22f436c, type: 3}
+  m_Name: LindaFriendliness_GreaterThanTwo
+  m_EditorClassIdentifier: 
+  negate: 0
+  onIsMetChanged:
+    bakedEvent: {fileID: 0}
+  value: {fileID: 3623844070445830614}
+  condition: 2
+  target: {fileID: -1027829643222853632}
+--- !u!114 &3623844070445830614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c9a38be80386d4ea8852ca12654382, type: 3}
+  m_Name: LindaFriendliness_GreaterThanTwo_value
+  m_EditorClassIdentifier: 
+  helpText: 
+  isConstant: 0
+  constantValue: 0
+  referenceValue: {fileID: 11400000, guid: d7659bbe4e9300148b4169a1fd478729, type: 2}
