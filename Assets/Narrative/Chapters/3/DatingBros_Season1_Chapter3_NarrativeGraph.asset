@@ -46,12 +46,13 @@ MonoBehaviour:
   guid: 672f6d70-9de3-4407-a2b7-4e964844a53a
   dialogue: Thank you, the Black Suit makes you look very dashing!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-9125335469070431261
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -116,12 +117,13 @@ MonoBehaviour:
   dialogue: "It\u2019s not that he thinks they\u2019re a waste of time, more just
     that he fills his time with other stuff."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8947713363841148047
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -168,12 +170,13 @@ MonoBehaviour:
   guid: f9bb1e4a-c0c1-40f1-8d61-83f75f1aabda
   dialogue: "What else\u2026"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8891731108172603976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -220,12 +223,13 @@ MonoBehaviour:
   guid: 99b6ca88-1811-455c-932d-e60db942175d
   dialogue: "It\u2019s obviously NOT fine."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8864743507535517299
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -261,7 +265,10 @@ MonoBehaviour:
       _node: {fileID: -8864743507535517299}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: ' '
+        node: {fileID: -2751501467081322932}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
@@ -269,12 +276,13 @@ MonoBehaviour:
   guid: b9133c8d-ab10-424c-b885-44f03bce7e83
   dialogue: A <i>wonderful</i> choice, sir, you will not regret it!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8718201335236677374
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -321,12 +329,13 @@ MonoBehaviour:
   guid: 4c4de7e6-a6ba-441d-9897-87951c8e4ec7
   dialogue: Why not?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8456253932722189719
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -374,14 +383,15 @@ MonoBehaviour:
   dialogue: With a swipe, tap and tear of paper the bill is paid and the receipt
     handed to {KYLE} who tries not to think about it too much.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8429409105877343301
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -428,7 +438,7 @@ MonoBehaviour:
   guid: ff2f308c-4a73-4c10-bd10-e5fa83046cac
   dialogue: '{LINDA} looks visibly unimpressed, but {KYLE} continues.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -437,7 +447,8 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8424517030887704321
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -503,12 +514,13 @@ MonoBehaviour:
     comes with paying for meals on dates and before either of them know it, the bill
     is settled.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8157673864640219504
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -555,14 +567,15 @@ MonoBehaviour:
   guid: 78fc5248-5597-456b-9d13-3c2a825810e8
   dialogue: '{LINDA} wisely chooses to ignore this last sentence.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8154951644564445734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -609,12 +622,13 @@ MonoBehaviour:
   guid: acfeca97-dcbb-4f4b-89a1-9848ab1fe9d0
   dialogue: Thanks!  I like a guy in Jeans, so you made the right choice there.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8070267692303614567
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -661,12 +675,13 @@ MonoBehaviour:
   guid: de7b87d3-b14e-4fb0-a9d1-b3db386ca23f
   dialogue: "Actually, I think I\u2019d like to have the Steak and Chips."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8009739647629927920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -787,14 +802,15 @@ MonoBehaviour:
   dialogue: The waiter stoops to strike a match and light the romantic candle in
     the table centre, but {LINDA} stops him.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-7734415995877080976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -842,12 +858,13 @@ MonoBehaviour:
   dialogue: The waiter, similarly taken aback by the sheer non French-ness of this
     non French person in his French restaurant, also quickly rallies.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-7596695069290527572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -894,12 +911,13 @@ MonoBehaviour:
   guid: f5068a56-3a7a-4209-808e-92458568ccf3
   dialogue: Oh, you go to the gym?  What do you normally do there?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-7514656647075086146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -947,12 +965,13 @@ MonoBehaviour:
   dialogue: "Ummmm, I\u2019m dreadfully sorry, but it seems like I\u2019ve left my
     wallet in my other trousers."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-7495565245351216686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1001,12 +1020,13 @@ MonoBehaviour:
     see in your whole life, takes pity on someone who is clearly out of place and
     swoops in to greet him."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-7469572923574622348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1053,12 +1073,13 @@ MonoBehaviour:
   guid: 488232ad-5ee6-4f31-8204-3706909be5a6
   dialogue: Not to worry, monsieur!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-7254130202654923185
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1105,12 +1126,13 @@ MonoBehaviour:
   guid: 661b9dce-ea4c-4d59-9567-42ee880eb9eb
   dialogue: "Deadweights\u2026"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-7242049991456191934
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1160,12 +1182,13 @@ MonoBehaviour:
   guid: 9b15b657-2b3e-45be-b9b4-32fb80ca8257
   dialogue: She extends a dainty hand and greets him warmly.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-7059313787192304886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1212,12 +1235,13 @@ MonoBehaviour:
   guid: c50b1abf-0529-4757-8bd0-b564085a606f
   dialogue: All just for one meal!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-7008575858272910454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1265,14 +1289,15 @@ MonoBehaviour:
   dialogue: '{KYLE} nods in agreement and they both pull up their chairs to the intimate
     wooden table decorated with a red and white chequed table cloth.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-6949451867701615854
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1326,12 +1351,13 @@ MonoBehaviour:
   dialogue: "{KYLE}\u2019s date is visibly unimpressed and quickly withdraws her
     hand."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-6899479795882975149
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1378,12 +1404,13 @@ MonoBehaviour:
   guid: 25a6ca9c-ba30-4a32-9e72-47ae26eb8efe
   dialogue: "Sooo\u2026 shall we split the bill then?"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-6835348326334041552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1487,14 +1514,15 @@ MonoBehaviour:
   guid: 12c81f15-34de-4c08-80da-a74ee608c5d4
   dialogue: "It\u2019s OK {KYLE}, I can cover you."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-6713330523184517714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1541,12 +1569,13 @@ MonoBehaviour:
   guid: 0b691f23-9c20-43e1-befe-511953c02355
   dialogue: You mean, deadlifts?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-6544495601894746275
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1624,14 +1653,15 @@ MonoBehaviour:
   dialogue: "Even {KYLE} realises he\u2019s made a good first impression and starts
     to get a bit more confident."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
   choices:
   - {fileID: -9125335469070431261}
   - {fileID: -2108162433492374855}
@@ -1682,14 +1712,15 @@ MonoBehaviour:
   dialogue: Thankfully, {KYLE} is neither deaf nor blind and tries desperately to
     improve the situation.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-6406614282100582519
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1736,14 +1767,15 @@ MonoBehaviour:
   guid: f080cb93-b4dd-4122-9295-371b4dfcc6a0
   dialogue: "So, {MARK}\u2019s a real gym rat, huh?  He really likes going there?"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-6147168417527630757
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1791,7 +1823,7 @@ MonoBehaviour:
   dialogue: The waiter, under the impression that {KYLE} has had the table reserved
     by an assistant called {MARK}, increases the intensity of his flattery.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -1800,7 +1832,8 @@ MonoBehaviour:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-6014650966080680672
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1904,12 +1937,13 @@ MonoBehaviour:
   guid: 2fc84121-9754-46d5-b63b-73e7a90abd4e
   dialogue: '{LINDA}'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5856748659658603786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1956,12 +1990,13 @@ MonoBehaviour:
   guid: 257c7095-af48-4483-b3a1-61b943518630
   dialogue: "I think we\u2019re OK without the candle actually, thank you."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5788968939324957663
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2026,14 +2061,15 @@ MonoBehaviour:
   dialogue: "Oh yeah, for sure!  I go with {MARK} and he\u2019s a proper expert. 
     Shows me how to do everything and really helps me push for that burn."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5592995397677834394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2083,12 +2119,13 @@ MonoBehaviour:
   guid: a7dd9ade-198c-48af-8067-ae9098e43175
   dialogue: I actually enjoy working out at the gym.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5561772515438630225
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2151,12 +2188,13 @@ MonoBehaviour:
   guid: 2b054777-64ec-4428-ac89-d54a322ef125
   dialogue: He must be serious about this, I mean, come on, who DOES that?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 2
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5331735230475859713
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2260,12 +2298,13 @@ MonoBehaviour:
   guid: ec48a5a3-05b7-4ed0-8d70-d7a43296911f
   dialogue: Ahhh yes, a common misunderstanding.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5275050499670013011
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2315,14 +2354,15 @@ MonoBehaviour:
   guid: a4a4b605-e29a-4a30-9b9a-afb669254205
   dialogue: '{LINDA}, your outfit looks great.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5183124445807968699
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2375,12 +2415,13 @@ MonoBehaviour:
   guid: d358098f-0827-4d42-a326-1ec4db1b3b92
   dialogue: "Does monsieur have en r\xE9servation?"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5132766192007330454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2484,12 +2525,13 @@ MonoBehaviour:
   guid: 4543884e-16b2-433a-a8bb-2fdb5021f924
   dialogue: Laura!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-4962689744455888913
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2538,14 +2580,15 @@ MonoBehaviour:
     illuminates the table, catching off the cutlery and dancing in {LINDA}\u2019s
     eyes."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-4851591456835540272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2593,14 +2636,15 @@ MonoBehaviour:
   dialogue: "While down there, she can\u2019t help but notice {KYLE}\u2019s socks,
     now clearly visible when he\u2019s sat down."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-4642686587911867105
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2648,12 +2692,13 @@ MonoBehaviour:
   dialogue: He can almost sense the upcoming tip and, with someone important enough
     to have an assistant, he assumes it will be very generous.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-4614036950614736719
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2701,7 +2746,7 @@ MonoBehaviour:
   dialogue: "{LINDA} clearly recognizes the passion in {KYLE}\u2019s voice, but is
     not going to be convinced in a short conversation."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -2710,7 +2755,8 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-4605284513144589374
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2758,12 +2804,13 @@ MonoBehaviour:
   dialogue: "He\u2019s really close with his family.  Speaks to them almost every
     day, though I have no idea why or what about."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-4366159461823229222
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2891,12 +2938,13 @@ MonoBehaviour:
   guid: aef8f549-d18e-4f1e-b951-6b8aaf515882
   dialogue: "And he\u2019s a great friend."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-4060980111450196130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2943,12 +2991,13 @@ MonoBehaviour:
   guid: 5cb506ac-cce9-45e0-8967-c3d838d1f4c5
   dialogue: Thank you, the Black Suit makes you look very dashing!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-3877411348910455913
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3025,7 +3074,7 @@ MonoBehaviour:
   guid: 82150704-7318-449d-8282-66bda2ba9307
   dialogue: '{LINDA} looks expectantly at {KYLE}.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -3034,7 +3083,8 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
   choices:
   - {fileID: -1228460956255063769}
   - {fileID: 7318537017773910939}
@@ -3158,12 +3208,13 @@ MonoBehaviour:
   dialogue: We always look after our valued customers here at <b>La Chou-fleur Bavard</b>. 
     I will simply put it on your tab to pay at your earliest convenience.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-3075025757887884462
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3288,12 +3339,13 @@ MonoBehaviour:
   dialogue: Well, I spend a lot of time playing video games, surfing the web, that
     sort of thing.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-2824220437220630853
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3340,14 +3392,15 @@ MonoBehaviour:
   guid: 47535338-2d89-4e50-89fa-1f359194f1a7
   dialogue: As {KYLE} approaches the table his date stands to greet him.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-2793996892477608798
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3449,6 +3502,12 @@ MonoBehaviour:
       - fieldName: 
         node: {fileID: 4865950462912924014}
         reroutePoints: []
+      - fieldName: 
+        node: {fileID: 6673995015874467811}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: -8864743507535517299}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -3469,7 +3528,7 @@ MonoBehaviour:
   dialogue: As the food comes and goes {KYLE} and {LINDA} slip into standard first
     date conversation.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -3478,7 +3537,8 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-2664057020293702731
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3526,12 +3586,13 @@ MonoBehaviour:
   dialogue: The waiter also loves tips and the key to healthy compensation in the
     hospitality industry is being a total suck up.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-2523644023099495100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3579,14 +3640,15 @@ MonoBehaviour:
   dialogue: "{KYLE}, relax.  It\u2019s the 21st century and I\u2019m buying you dinner,
     enough said."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-2523049290320710954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3633,12 +3695,13 @@ MonoBehaviour:
   guid: f6f301d8-fd5d-46b2-8a2c-61415cc55dab
   dialogue: "Sure and err\u2026 bicep twists."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-2507222717120860164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3742,12 +3805,13 @@ MonoBehaviour:
   guid: d98e138b-f190-4ccf-93c0-d70855e849f2
   dialogue: Bonne chance, mon ami.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-2240931102631578075
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3794,12 +3858,13 @@ MonoBehaviour:
   guid: 5ce7a14d-beb6-406b-9ca7-04a5f4c66317
   dialogue: Your moustache is absolutely great.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-2183136440263783119
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3889,14 +3954,15 @@ MonoBehaviour:
   guid: 49fb11e9-fc84-41cb-8f76-85cc4b652fca
   dialogue: So, {KYLE} tell me something about yourself.  What do you do for fun?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
   choices:
   - {fileID: 6359526651343711122}
   - {fileID: 1932836603049069357}
@@ -3965,14 +4031,15 @@ MonoBehaviour:
   dialogue: Looking incredibly suave and ever-so-slightly cocky, {KYLE} sweeps out
     his wallet and hands his card over to the waiter.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-2002116576707143069
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4019,12 +4086,13 @@ MonoBehaviour:
   guid: 925ec7cc-7002-4a65-867f-4c198050ef9f
   dialogue: Certainly, sir.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-1986033196941963282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4073,7 +4141,7 @@ MonoBehaviour:
     recollect some of the stuff {MARK} has told him over the years about the mysterious
     and intimidating \u2018Gym\u2019."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -4082,7 +4150,8 @@ MonoBehaviour:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-1870751057506083185
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4129,12 +4198,13 @@ MonoBehaviour:
   guid: 7b9e73d1-ec61-4f5d-9f8e-7c62c1361298
   dialogue: I think we can all agree that at this point, he deserves one.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-1852076693355715950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4181,12 +4251,13 @@ MonoBehaviour:
   guid: 65aee340-afc5-4f6f-8913-84baebb2c011
   dialogue: "\u2018Umm\u2019 is the sound in \u2018dumb\u2019."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-1821787136167954036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4290,12 +4361,13 @@ MonoBehaviour:
   guid: 33068725-bd08-46f6-9b3b-58e09b293f16
   dialogue: Come, come!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-1249034074553497779
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4343,14 +4415,15 @@ MonoBehaviour:
   dialogue: "The waiter laughs weakly, but it\u2019s hard to escape how much of an
     idiot {KYLE} has just made of himself."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-1228460956255063769
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4415,7 +4488,7 @@ MonoBehaviour:
   dialogue: "{LINDA}, taking pity on {KYLE}\u2019s thoroughly avoidable mishap, reaches
     generously for her purse."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -4424,7 +4497,8 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-1063795656092287557
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4474,14 +4548,15 @@ MonoBehaviour:
   guid: 6b63290f-c13f-4af4-84e9-12020fca32c1
   dialogue: What else does {MARK} do in his spare time?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-1060657901446365957
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4611,12 +4686,13 @@ MonoBehaviour:
   guid: 12b4c46a-dd77-4cf3-98a6-71842a669fcb
   dialogue: Ah, bonsoir mon ami and welcome to <b>Le Chou-fleur Bavard</b>.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
   choices:
   - {fileID: 9123627003248537450}
   - {fileID: -3877411348910455913}
@@ -4668,7 +4744,7 @@ MonoBehaviour:
   dialogue: "The waiter arrives, dutifully ready to take {KYLE} and {LINDA}\u2019s
     order and compliment them on their choice, no matter what."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -4677,7 +4753,8 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-815696241840647645
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4725,7 +4802,7 @@ MonoBehaviour:
   dialogue: The awkwardness stretches on intolerably as the waiter, {KYLE} and {LINDA}
     all look at each other, locked in a credit card Mexican standoff.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -4734,7 +4811,8 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-652946465682592212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4797,12 +4875,13 @@ MonoBehaviour:
   guid: c47e5de2-ab6b-4415-8f69-f130363ada8d
   dialogue: "That\u2019s very kind."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-561432088012198900
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4855,12 +4934,13 @@ MonoBehaviour:
   guid: c90986a2-56c4-4817-9566-80d9b09b374e
   dialogue: Shall we sit?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-557414855428723596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4908,14 +4988,15 @@ MonoBehaviour:
   dialogue: Overwhelmed and uncomfortable at his total lack of French vocabulary,
     {KYLE} elects to remain silent and just smile half-heartedly.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-543340210016249303
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4962,12 +5043,13 @@ MonoBehaviour:
   guid: 2c3c7849-2830-4d6a-933e-d6a8900b6631
   dialogue: "Oh god, he\u2019s there loads."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-510585811828874925
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5014,12 +5096,13 @@ MonoBehaviour:
   guid: 56807632-d395-4d3f-8170-ad092927c446
   dialogue: 'You know, my Mum used to say:'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-488238033331207082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5123,12 +5206,13 @@ MonoBehaviour:
   guid: 3048fa4f-0396-4f47-8125-27179247bc56
   dialogue: Oh tonnes of stuff - he likes to keep busy.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-267539092693645005
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5233,12 +5317,13 @@ MonoBehaviour:
   dialogue: "Ah, I see monsieur is a man of few words, but much wisdom, I\u2019m
     sure."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-224144745444202512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5342,14 +5427,15 @@ MonoBehaviour:
   guid: 8a62a910-9d72-4d86-8cda-9dd9e070380c
   dialogue: Could you see if there is one under the name {MARK}?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8154538463121684
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5645,12 +5731,13 @@ MonoBehaviour:
   guid: 09f0b25c-00ae-4d13-b013-aca325676b61
   dialogue: You know, bit of this, bit of that.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &170675561732599041
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5698,7 +5785,7 @@ MonoBehaviour:
   dialogue: "{KYLE}, desperate to stay in {LINDA}\u2019s good graces, hurries to
     keep the conversation flowing."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -5707,7 +5794,8 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &260043242599916820
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5771,7 +5859,7 @@ MonoBehaviour:
   dialogue: "{KYLE} suddenly feels very self conscious and stops talking, but {LINDA}\u2019s
     mind is elsewhere and his last few thoughts go unheard."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -5780,7 +5868,8 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &397532567739662410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5827,12 +5916,13 @@ MonoBehaviour:
   guid: ec51c616-e02a-46a1-b25f-f350c6a554d5
   dialogue: "Errr\u2026"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &411614203263744187
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5896,12 +5986,13 @@ MonoBehaviour:
   guid: 4658525e-8692-4b38-a509-2255c386ff0c
   dialogue: "Well, thank you very much, that\u2019s very gracious of you!"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &681733187399175037
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5948,12 +6039,13 @@ MonoBehaviour:
   guid: bece6166-f8f5-4306-9f4d-5284d48bd3c7
   dialogue: "Thanks\u2026"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &726239624252310574
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6034,12 +6126,13 @@ MonoBehaviour:
   guid: cab8491b-8f95-406d-9fd3-7b3cd58bc17e
   dialogue: "Not really, he just doesn\u2019t see the appeal."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &971103322471394264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6086,12 +6179,13 @@ MonoBehaviour:
   guid: 1a75667a-c842-4d26-b9f9-b7553f71312a
   dialogue: To be fair, it was good!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &1107869726114081044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6139,12 +6233,13 @@ MonoBehaviour:
   dialogue: "This is incredibly generous and can only be explained by the waiter\u2019s
     heart still set on a very generous tip."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &1115771370579447457
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6204,14 +6299,15 @@ MonoBehaviour:
   dialogue: In her enthusiasm, {LINDA} drops her napkin and bends to pick it up from
     under the table.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &1121639994217882639
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6388,14 +6484,15 @@ MonoBehaviour:
   guid: 1b2fdce4-1a51-4cb4-aefc-8323f2af11c3
   dialogue: Eventually, {LINDA} breaks and without a word gives her card to the waiter.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &1298024808342241494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6442,12 +6539,13 @@ MonoBehaviour:
   guid: 066e1798-368f-4410-a805-9c8bb832b851
   dialogue: I have a soft spot for flannel shirts, so you made a good choice.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &1319251966847768779
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6591,12 +6689,13 @@ MonoBehaviour:
   guid: cdda342a-c16d-4626-b0fa-7604a9bc9faa
   dialogue: "Ummm\u2026"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &1461982478894285082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6660,12 +6759,13 @@ MonoBehaviour:
   dialogue: Beautiful wine glasses, pitchers and spotless cutlery adorn the tabletop,
     like weapons in an armoury.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &1623802991626210720
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6751,12 +6851,13 @@ MonoBehaviour:
   guid: 0fe6e9c1-3c0c-4dc5-90d2-bc779b0b1a92
   dialogue: And what appetiser can I get monsieur?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
   choices:
   - {fileID: -2793996892477608798}
   - {fileID: 411614203263744187}
@@ -6865,12 +6966,13 @@ MonoBehaviour:
   guid: d9009687-7fba-48af-ab02-419d2e432271
   dialogue: "When I was a kid\u2026 my\u2026"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &1881634942464602327
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6917,12 +7019,13 @@ MonoBehaviour:
   guid: 2d065179-d502-4dd5-b3df-f1d1ab5418eb
   dialogue: "I don\u2019t get it."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &1890443510371313216
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7048,7 +7151,7 @@ MonoBehaviour:
   dialogue: '{LINDA} quickly and decisively places her order.  After some frantic
     scribbling, the waiter turns to {KYLE}, notebook and pencil at the ready.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -7057,7 +7160,8 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &2402173009790892733
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7105,12 +7209,13 @@ MonoBehaviour:
   dialogue: With their plates emptied and the evening coming to a close, the waiter
     wanders over with the bill.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &2405385092792723022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7159,7 +7264,7 @@ MonoBehaviour:
     faux pas, he turns with great embarrassment to the waiter who is just finishing
     up with {LINDA}\u2019s half of the bill."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens:
@@ -7168,7 +7273,8 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &2526928545134479252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7216,7 +7322,7 @@ MonoBehaviour:
   dialogue: Unfortunately, between implying her mother was stupid and his obvious
     pride at the clever retort, {KYLE} only irritates {LINDA} further.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -7225,7 +7331,8 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &2736415299864367776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7272,12 +7379,13 @@ MonoBehaviour:
   guid: e2f5cafc-3715-47e0-84cb-824381444b30
   dialogue: However, she senses an opportunity and moves in.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &2751043415074385438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7325,12 +7433,13 @@ MonoBehaviour:
   dialogue: "An entertainment format that <b>requires</b> the input of the person
     experiencing it.  It\u2019s so much more immersive than a film could ever be."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &2768120891397598743
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7377,7 +7486,7 @@ MonoBehaviour:
   guid: a8e64a69-beac-458b-b755-c200e3dc78f9
   dialogue: "{LINDA}\u2019s eyes glisten hungrily as she listens intently to {KYLE}."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -7386,7 +7495,8 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &2826767565815774348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7435,12 +7545,13 @@ MonoBehaviour:
     this particular act of generosity can, at least in part, still be attributed
     to the waiter\u2019s desire for a healthy tip."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &2843744663871835236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7545,12 +7656,13 @@ MonoBehaviour:
   dialogue: The waiter opens an absolutely enormous book and runs his finger down
     the page muttering to himself.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &2920883940271723549
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7597,14 +7709,15 @@ MonoBehaviour:
   guid: b98ddda4-1107-4108-b57a-6ddb3423598e
   dialogue: "{MARK}\u2019s told me a lot about you too."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3022739972713027765
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7652,12 +7765,13 @@ MonoBehaviour:
   dialogue: Remember, waiters live or die by their tips - sometimes it helps to be
     fast and loose with the truth.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3042207239999212338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7791,12 +7905,13 @@ MonoBehaviour:
   guid: 754761c2-5cbb-4780-b9b0-ac0dcf6a7e60
   dialogue: Lara!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3327865590033072747
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7967,12 +8082,13 @@ MonoBehaviour:
   guid: 4d12b4ee-709d-4916-b7c7-8146256df0ce
   dialogue: And for main?  Might I recommend our wonderful Ratatouille?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
   choices:
   - {fileID: 8806363996330214518}
   - {fileID: -2183136440263783119}
@@ -8023,12 +8139,13 @@ MonoBehaviour:
   guid: 3cbe941f-e493-4334-9168-28c6f46c021d
   dialogue: "Bicep twists?  Are you sure you\u2019re doing it right?"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3652599604161568420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8075,12 +8192,13 @@ MonoBehaviour:
   guid: c9d95639-81dd-462a-946d-561f6e2cbccc
   dialogue: Monsieur could be from Paris himself, my, what a beautiful accent!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3674776505969290316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8162,12 +8280,13 @@ MonoBehaviour:
     a waste of time, but really, if you think about it, they're the next evolution
     of media and entertainment."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3833468254925238958
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8214,7 +8333,7 @@ MonoBehaviour:
   guid: c66ab06f-52a8-413e-9fb4-2c291eb1bb2a
   dialogue: "You must be {KYLE}, {MARK}\u2019s told me a lot about you."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens:
@@ -8223,7 +8342,8 @@ MonoBehaviour:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3870021881335398028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8274,14 +8394,15 @@ MonoBehaviour:
   dialogue: '{KYLE} reaches for his wallet, only to find in horror that it is not
     in his pocket.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3890112159510453560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8388,12 +8509,13 @@ MonoBehaviour:
   guid: 669a052a-3df5-43c7-ab14-afbb5806e0a2
   dialogue: Gotta burn it to learn it.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3994810689150376859
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8495,14 +8617,15 @@ MonoBehaviour:
   guid: 3a0d813b-864a-4628-a509-87e2373a2b9b
   dialogue: "Oh hi and you must be\u2026"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
   choices:
   - {fileID: 5511106305235229000}
   - {fileID: 3674776505969290316}
@@ -8568,12 +8691,13 @@ MonoBehaviour:
   dialogue: He quickly tries to gather his words and think of a proper answer to
     her question.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
   choices:
   - {fileID: 5466581976982497063}
   - {fileID: -6544495601894746275}
@@ -8623,12 +8747,13 @@ MonoBehaviour:
   guid: 06f5448c-8e4b-42f5-963e-d41de04e8738
   dialogue: Needless to say, the waiter received a generous tip.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &4483599117186882199
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8677,14 +8802,15 @@ MonoBehaviour:
     he leaves he gives {KYLE} a sympathetic look that also says \u2018this is not
     off to a good start\u2019."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &4810835293013718300
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8731,14 +8857,15 @@ MonoBehaviour:
   guid: 81e7f3ce-f70d-4373-9c25-c87d5e606f14
   dialogue: Before {KYLE} can stop her, she flashes her card and the bill is settled.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &4865950462912924014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8785,12 +8912,13 @@ MonoBehaviour:
   guid: 57250787-5c62-44d0-b621-0a9257fee123
   dialogue: I shall fetch monsieur the Steak.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &4881734611620931724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8919,12 +9047,13 @@ MonoBehaviour:
   dialogue: Oui, parfait.  A table for deux, monsieur and I believe that your lovely
     lady is already waiting for you.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5123567822064907825
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8971,14 +9100,15 @@ MonoBehaviour:
   guid: 55c88f6b-77f1-464b-aec4-ef28b17e13d5
   dialogue: This is objectively very quick witted for {KYLE} and he knows it.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5224094444744150532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9026,14 +9156,15 @@ MonoBehaviour:
   dialogue: '{KYLE} apologises silently to his best friend and again, vows to take
     this moment to the grave.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5308818303593133651
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9080,12 +9211,13 @@ MonoBehaviour:
   guid: 036cb83e-1e9b-46c6-974a-2f91b3d74bcb
   dialogue: Always been there to bail me out or keep me company.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5314869145358228756
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9132,12 +9264,13 @@ MonoBehaviour:
   guid: 74b954f8-3f57-4dbe-9fd1-5ae6f87f8c97
   dialogue: "That\u2019s very kind."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5317557828212738163
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9202,12 +9335,13 @@ MonoBehaviour:
     perfect steak or something, so spend all day buying ingredients, preparing and
     cooking."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5350494424041644220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9254,14 +9388,15 @@ MonoBehaviour:
   guid: 5b90d1d0-bc69-45ef-9ead-ce56243aacbc
   dialogue: '{LINDA} nods curtly, then softens.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5384311087284459737
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9308,12 +9443,13 @@ MonoBehaviour:
   guid: 8a235cb1-1c9f-4345-9c98-fbb526f8f0bf
   dialogue: "Which is ironic, because it\u2019s also the sound in \u2018Mum\u2019!"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5439477784778604320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9360,12 +9496,13 @@ MonoBehaviour:
   guid: e231ed88-9ecd-45fa-8993-f5c4d37f7685
   dialogue: Monsieur is too kind.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5466581976982497063
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9429,14 +9566,15 @@ MonoBehaviour:
   guid: 9d895543-4e76-488a-a92f-697a14f11583
   dialogue: "It\u2019s {LINDA}, actually."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5511106305235229000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9502,14 +9640,15 @@ MonoBehaviour:
     Brie you\u2019ve ever tasted, {KYLE} does his absolute best at dredging up some
     of the French he learned in school."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5842349834311092597
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9588,12 +9727,13 @@ MonoBehaviour:
   guid: 5dc36721-91c1-402b-a8a4-d3a726398951
   dialogue: Not too much, I hope!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5920009423423095612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9640,12 +9780,13 @@ MonoBehaviour:
   guid: 6a51c1d3-8551-4a77-9da5-3a12dd87b80b
   dialogue: "Bon\u2026 swar\u2026 mon\u2026 sur.  Sa\u2026 vah?"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5958381781786579549
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9692,12 +9833,13 @@ MonoBehaviour:
   guid: e934f722-60e9-4c4d-8433-1c7de51d32e2
   dialogue: "It\u2019s OK, it could happen to any of us."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6035574522710564033
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9746,14 +9888,15 @@ MonoBehaviour:
     brain was currently performing, as it attempted to figure out what the hell it
     was doing here and how quickly it could be somewhere else."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6054305213788645711
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9816,12 +9959,13 @@ MonoBehaviour:
   guid: 640365e5-5e65-48b9-8d12-6900a302ff29
   dialogue: I think I saw that at the cinema once.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6118925491124645053
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9868,12 +10012,13 @@ MonoBehaviour:
   guid: 361fcd11-29a8-4c42-a6de-7bddcabacf39
   dialogue: Let me take care of this.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6194801627722873614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9921,14 +10066,15 @@ MonoBehaviour:
   dialogue: "She begins to open her mouth to offer to pay, but the waiter swiftly
     comes to {KYLE}\u2019s rescue."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6211163218872654975
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10033,14 +10179,15 @@ MonoBehaviour:
   dialogue: The waiter, though wincing at this butchering of his beloved language,
     continues to smile at {KYLE}, touched by the effort.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6322599467764284622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10087,12 +10234,13 @@ MonoBehaviour:
   guid: a0f51371-63d0-49f6-895d-474098363636
   dialogue: "No, I\u2019d feel awful if you did, it would be so humiliating."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6359526651343711122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10295,7 +10443,7 @@ MonoBehaviour:
   dialogue: '{LINDA} looks mortified both at {KYLE} and on his behalf, sympathetically
     appreciating the dreadfulness of his predicament.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -10304,7 +10452,8 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6461100404611922297
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10351,12 +10500,13 @@ MonoBehaviour:
   guid: b0b91874-a0a3-4ddd-8421-62eaba01b2ef
   dialogue: "Oh\u2026 I\u2019m sorry, I must have misremembered."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6465790874083165621
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10404,12 +10554,13 @@ MonoBehaviour:
   dialogue: With a dawning realisation of utter dread, he realises he left it in
     his other trousers when he changed for the date.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6582324872718047493
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10465,12 +10616,13 @@ MonoBehaviour:
   guid: e8ebbb79-8101-46d3-bc8a-44645cdea094
   dialogue: An <i>excellent</i> choice, sir.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6599085998159812228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10517,12 +10669,13 @@ MonoBehaviour:
   guid: d34c14b0-e530-4311-972e-b5d2ceb17a2f
   dialogue: Geez, does this guy iron his socks?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 2
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6601525987156932700
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10571,12 +10724,13 @@ MonoBehaviour:
     {KYLE} might argue it was clever, given how he truly knows so little about his
     date, it goes down like a lead balloon."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6660998538628977308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10623,12 +10777,13 @@ MonoBehaviour:
   guid: 0d030709-acbc-4a83-9327-03e4c79ded46
   dialogue: "I <b>promise</b> I\u2019ll pay you back as soon as I can."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6673995015874467811
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10664,7 +10819,10 @@ MonoBehaviour:
       _node: {fileID: 6673995015874467811}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: ' '
+        node: {fileID: -2751501467081322932}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
@@ -10672,12 +10830,13 @@ MonoBehaviour:
   guid: ac3ee232-970e-462f-a513-d038418add49
   dialogue: A <i>superb</i> choice, sir.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6678342343383084774
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10724,12 +10883,13 @@ MonoBehaviour:
   guid: ff530d2e-b00a-4d01-b113-654bfe9d1584
   dialogue: "And he\u2026"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6699000150577103764
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10793,12 +10953,13 @@ MonoBehaviour:
   dialogue: The waiter, unfortunately, interprets this as aloofness, but being a
     complete professional takes it in his stride.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6790094358330882145
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10846,14 +11007,15 @@ MonoBehaviour:
   dialogue: The waiter gestures at the romantic candle in the table centre and gives
     a questioning look at {LINDA}, match in hand, poised to light it.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6832429535766373032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10995,12 +11157,13 @@ MonoBehaviour:
   guid: 9d3fef07-03ed-4a11-9080-f98daca39b9b
   dialogue: Ah, right, yes, restaurant, reservation.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7077316347240516618
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11049,14 +11212,15 @@ MonoBehaviour:
     working in the French restaurant, but quickly rallies, blurting out the first
     words that come to him.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7148660557725665523
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11104,14 +11268,15 @@ MonoBehaviour:
   dialogue: "Surprised {MARK} let you go out without a wallet though.  I thought
     he\u2019d be your wingman or whatever it is boys call each other."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7266295862698009454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11158,12 +11323,13 @@ MonoBehaviour:
   guid: e8fbb39c-5cb2-428f-afe7-803af34ddae2
   dialogue: Sure, seems only fair!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7284057624922006215
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11340,7 +11506,7 @@ MonoBehaviour:
   dialogue: Confused, but grateful to have hit on a topic that seems to both interest
     {LINDA} and actually be something he knows about, {KYLE} continues.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -11349,7 +11515,8 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7318537017773910939
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11413,7 +11580,7 @@ MonoBehaviour:
   guid: fac3db55-c4c7-47ce-a799-44cf1f643634
   dialogue: '{KYLE} reaches for his wallet as {LINDA} reaches for her purse.'
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
@@ -11422,7 +11589,8 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7589465421582516733
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11469,12 +11637,13 @@ MonoBehaviour:
   guid: ae4f14c5-ed86-47d1-9874-b0630794dcab
   dialogue: "It\u2019s fine."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7727399776842769340
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11521,14 +11690,15 @@ MonoBehaviour:
   guid: 348924e5-0ae1-470c-bc3b-1aa271a1c2fc
   dialogue: Soooo, is {MARK} into video games?
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7810279669193176907
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11576,14 +11746,15 @@ MonoBehaviour:
   dialogue: A friendly tinkling of a bell greets {KYLE} as he pushes the door to
     the restaurant open and tentatively creeps inside.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7845818392959462227
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11630,12 +11801,13 @@ MonoBehaviour:
   guid: e757a7f4-f9e4-4ad6-9eca-47eb1eab9cb9
   dialogue: Oh right!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7847397337089585662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11684,14 +11856,15 @@ MonoBehaviour:
     {KYLE} might argue it was clever, given how he truly knows so little about his
     date, it goes down like a lead balloon."
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &8117418320821825877
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11738,12 +11911,13 @@ MonoBehaviour:
   guid: aa10b6dd-f1e0-460e-a512-6737c2679914
   dialogue: Ah ha!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &8135488442799871039
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11790,12 +11964,13 @@ MonoBehaviour:
   guid: a57e39f9-d383-41b7-8b59-bc19613d74a4
   dialogue: He loves to cook and go out to eat.
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &8194194658362562532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11842,12 +12017,13 @@ MonoBehaviour:
   guid: 34b0eb04-f447-4b6e-ad66-e1a2540dd4e0
   dialogue: "Oh\u2026 uh\u2026 yeah\u2026"
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &8351861370184877979
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11951,12 +12127,13 @@ MonoBehaviour:
   guid: 3515456b-fa18-4039-9dee-f3acfd41a4c2
   dialogue: Lisa!
   localisationKey: {fileID: 0}
-  isLocalised: 0
+  currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  currentLanguage: {fileID: 0}
+  expression: 
+  isLocalised: 0
 --- !u!114 &8655229593085452963
 MonoBehaviour:
   m_ObjectHideFlags: 1
