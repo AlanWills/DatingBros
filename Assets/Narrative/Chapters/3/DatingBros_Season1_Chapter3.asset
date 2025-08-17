@@ -18,6 +18,14 @@ MonoBehaviour:
   chapterThumbnail: {fileID: 0}
   narrativeGraph: {fileID: 11400000, guid: c3091beb6972138478334980c1d8c116, type: 2}
   twineStory: {fileID: 0}
-  characters: []
-  stringValues: []
+  characters:
+  - {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  - {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
+  - {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  - {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  stringValues:
+  - {fileID: 11400000, guid: 345e3edd5ea430e4399d4fd4198cb4ee, type: 2}
   boolValues: []
+  intValues:
+  - {fileID: 11400000, guid: 4c2ec9c35a53ac14fb460f481dc8f808, type: 2}
+  - {fileID: 11400000, guid: d7659bbe4e9300148b4169a1fd478729, type: 2}

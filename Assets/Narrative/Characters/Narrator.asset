@@ -28,9 +28,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c713fb185e69f24e820cf3e25c04a0e, type: 3}
   m_Name: Narrator
   m_EditorClassIdentifier: 
+  components: []
   guid: 3
   characterName: {fileID: -7685450040771487553}
-  characterAvatarIcon: {fileID: 2682555167431366147}
   defaultUIPosition: 3
 --- !u!114 &2682555167431366147
 MonoBehaviour:

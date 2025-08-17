@@ -28,9 +28,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c713fb185e69f24e820cf3e25c04a0e, type: 3}
   m_Name: Waiter
   m_EditorClassIdentifier: 
+  components: []
   guid: 5
   characterName: {fileID: 7576872047213560198}
-  characterAvatarIcon: {fileID: -4722841194390549399}
   defaultUIPosition: 1
 --- !u!114 &7576872047213560198
 MonoBehaviour:

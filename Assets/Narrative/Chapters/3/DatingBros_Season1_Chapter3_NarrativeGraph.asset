@@ -667,6 +667,22 @@ MonoBehaviour:
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   currentLanguage: {fileID: 0}
+--- !u!114 &-8009739647629927920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f51fb886b9ab4e346897a43d978de61a, type: 3}
+  m_Name: _newValue
+  m_EditorClassIdentifier: 
+  helpText: 
+  isConstant: 1
+  constantValue: Linda
+  referenceValue: {fileID: 0}
 --- !u!114 &-7997249044538542835
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1561,7 +1577,7 @@ MonoBehaviour:
   m_Name: Choice
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7288, y: 328}
+  position: {x: 7352, y: 344}
   ports:
     keys:
     - ' '
@@ -1574,7 +1590,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: 
-        node: {fileID: -5882770357610661195}
+        node: {fileID: -6014650966080680672}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1785,6 +1801,63 @@ MonoBehaviour:
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   currentLanguage: {fileID: 0}
+--- !u!114 &-6014650966080680672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 997cd2260e5f7104cb591676fd0fcf10, type: 3}
+  m_Name: Set String Value
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7096, y: 360}
+  ports:
+    keys:
+    - newValue
+    - ' '
+    - 
+    values:
+    - _fieldName: newValue
+      _node: {fileID: -6014650966080680672}
+      _typeQualifiedName: Celeste.Parameters.StringReference, Celeste.Parameters,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ' '
+      _node: {fileID: -6014650966080680672}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -5882770357610661195}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -6014650966080680672}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -6473241803300707764}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: e38d2f49-6e75-4052-8c12-58a0245c0d92
+  value: {fileID: 11400000, guid: 345e3edd5ea430e4399d4fd4198cb4ee, type: 2}
+  newValue: {fileID: -8009739647629927920}
+  setMode: 0
 --- !u!114 &-5882770357610661195
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1798,7 +1871,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7032, y: 328}
+  position: {x: 6888, y: 328}
   ports:
     keys:
     - ' '
@@ -1822,7 +1895,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: ' '
-        node: {fileID: -6473241803300707764}
+        node: {fileID: -6014650966080680672}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -2965,6 +3038,63 @@ MonoBehaviour:
   choices:
   - {fileID: -1228460956255063769}
   - {fileID: 7318537017773910939}
+--- !u!114 &-3763005435810442755
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 997cd2260e5f7104cb591676fd0fcf10, type: 3}
+  m_Name: Set String Value
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7560, y: 120}
+  ports:
+    keys:
+    - newValue
+    - ' '
+    - 
+    values:
+    - _fieldName: newValue
+      _node: {fileID: -3763005435810442755}
+      _typeQualifiedName: Celeste.Parameters.StringReference, Celeste.Parameters,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ' '
+      _node: {fileID: -3763005435810442755}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 5498119195376771251}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -3763005435810442755}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 6461100404611922297}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 411614e2-888d-4f84-808d-6e6b66fd3835
+  value: {fileID: 11400000, guid: 345e3edd5ea430e4399d4fd4198cb4ee, type: 2}
+  newValue: {fileID: -8154538463121684}
+  setMode: 0
 --- !u!114 &-3509683685351736553
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4365,7 +4495,7 @@ MonoBehaviour:
   m_Name: Set Int Value
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7560, y: 600}
+  position: {x: 7608, y: 600}
   ports:
     keys:
     - newValue
@@ -5122,7 +5252,7 @@ MonoBehaviour:
   m_Name: Set Int Value
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7560, y: 360}
+  position: {x: 7608, y: 360}
   ports:
     keys:
     - newValue
@@ -5220,6 +5350,22 @@ MonoBehaviour:
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   currentLanguage: {fileID: 0}
+--- !u!114 &-8154538463121684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f51fb886b9ab4e346897a43d978de61a, type: 3}
+  m_Name: _newValue
+  m_EditorClassIdentifier: 
+  helpText: 
+  isConstant: 1
+  constantValue: Linda
+  referenceValue: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5427,6 +5573,8 @@ MonoBehaviour:
   - {fileID: 1656882508216983395}
   - {fileID: 6832429535766373032}
   - {fileID: 3890112159510453560}
+  - {fileID: -3763005435810442755}
+  - {fileID: -6014650966080680672}
   startNode: {fileID: 1890443510371313216}
   parameters:
   - {fileID: 6699000150577103764}
@@ -5448,6 +5596,8 @@ MonoBehaviour:
   - {fileID: 3730181807640666393}
   - {fileID: 5317557828212738163}
   - {fileID: 3994810689150376859}
+  - {fileID: -8154538463121684}
+  - {fileID: -8009739647629927920}
   finishNode: {fileID: 0}
 --- !u!114 &109323230969767547
 MonoBehaviour:
@@ -6148,7 +6298,7 @@ MonoBehaviour:
   m_Name: Set Int Value
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6696, y: 328}
+  position: {x: 6632, y: 280}
   ports:
     keys:
     - newValue
@@ -7414,7 +7564,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7848, y: 600}
+  position: {x: 7864, y: 600}
   ports:
     keys:
     - ' '
@@ -9246,7 +9396,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7512, y: 72}
+  position: {x: 7288, y: -168}
   ports:
     keys:
     - ' '
@@ -9270,7 +9420,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: ' '
-        node: {fileID: 6461100404611922297}
+        node: {fileID: -3763005435810442755}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -10168,7 +10318,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7736, y: 72}
+  position: {x: 7960, y: -168}
   ports:
     keys:
     - ' '
@@ -10180,7 +10330,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: 
-        node: {fileID: 5498119195376771251}
+        node: {fileID: -3763005435810442755}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -10386,7 +10536,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7848, y: 344}
+  position: {x: 7864, y: 344}
   ports:
     keys:
     - ' '
@@ -10748,8 +10898,8 @@ MonoBehaviour:
   animateBackgroundRequest: {fileID: 11400000, guid: 045de853e40bf4e558beed33c265d447, type: 2}
   args:
     AnimationTime: 1.5
-    FinishOffset: 0
-    UseAnimCurve: 1
+    FinishOffset: 0.25
+    UseAnimCurve: 0
     AnimationCurve:
       serializedVersion: 2
       m_Curve:

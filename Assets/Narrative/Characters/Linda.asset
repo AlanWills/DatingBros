@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c713fb185e69f24e820cf3e25c04a0e, type: 3}
   m_Name: Linda
   m_EditorClassIdentifier: 
+  components: []
   guid: 4
   characterName: {fileID: 6948117585871498443}
-  characterAvatarIcon: {fileID: 36615266944282536}
   defaultUIPosition: 2
 --- !u!114 &36615266944282536
 MonoBehaviour:
@@ -45,6 +45,6 @@ MonoBehaviour:
   m_Name: CharacterName
   m_EditorClassIdentifier: 
   helpText: 
-  isConstant: 1
+  isConstant: 0
   constantValue: Linda
-  referenceValue: {fileID: 0}
+  referenceValue: {fileID: 11400000, guid: 345e3edd5ea430e4399d4fd4198cb4ee, type: 2}

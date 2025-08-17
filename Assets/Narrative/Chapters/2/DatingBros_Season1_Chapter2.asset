@@ -26,3 +26,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ea997075f40c14b71b67786d5e76ab45, type: 2}
   boolValues:
   - {fileID: 11400000, guid: 5bf5cb6b59bdb46acb0c2a7f170820ba, type: 2}
+  intValues: []

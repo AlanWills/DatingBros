@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 357b7897891657843af8c475f4deddbd, type: 3}
-  m_Name: Background_FrenchRestaurant_Interior
+  m_Name: Background_FrenchRestaurant_Exterior_Evening
   m_EditorClassIdentifier: 
-  guid: 4
-  sprite: {fileID: 21300000, guid: e9b04194a3d7cdf40b43e3597ab38e80, type: 3}
+  guid: 5
+  sprite: {fileID: 21300000, guid: 2751eae0739874b409e47b88b5c4fe56, type: 3}
   defaultOffset: 1
