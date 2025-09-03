@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 93b5287f44bb2224393fb018ccb93f4a
+guid: 90f7ec6c34fef034694f830bdadfbb23
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1504041303872488470
-    second: Kyle_Neutral_0
+      213: -5432764065349467866
+    second: Waiter_Happy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kyle_Neutral_0
+      name: Waiter_Happy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aeb3a232762902be0800000000000000
-      internalID: -1504041303872488470
+      spriteID: 6218658ddd1fa94b0800000000000000
+      internalID: -5432764065349467866
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kyle_Neutral_0: -1504041303872488470
+      Waiter_Happy_0: -5432764065349467866
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

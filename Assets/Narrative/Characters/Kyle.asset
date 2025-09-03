@@ -35,9 +35,11 @@ MonoBehaviour:
   - ExpressionName: Embarrassed
     Sprite: {fileID: 21300000, guid: a0c2764659a129e47bf2b7b682e7c73c, type: 3}
   - ExpressionName: Neutral
-    Sprite: {fileID: -1504041303872488470, guid: 93b5287f44bb2224393fb018ccb93f4a, type: 3}
+    Sprite: {fileID: 21300000, guid: 93b5287f44bb2224393fb018ccb93f4a, type: 3}
   - ExpressionName: Sad
     Sprite: {fileID: 21300000, guid: 787221950059b984a8b7e9a8053d6912, type: 3}
+  - ExpressionName: Thinking
+    Sprite: {fileID: 21300000, guid: 08209544b81c4d94987ff78fd2d653f3, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

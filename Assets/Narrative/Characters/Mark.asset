@@ -65,3 +65,13 @@ MonoBehaviour:
   expressions:
   - ExpressionName: Happy
     Sprite: {fileID: 21300000, guid: 5649e83b3f07d4f4bb6c607b89db5663, type: 3}
+  - ExpressionName: Embarrassed
+    Sprite: {fileID: 21300000, guid: e4900139d87167248b1cedf1c6dd5c5f, type: 3}
+  - ExpressionName: Neutral
+    Sprite: {fileID: 21300000, guid: e3daa00a0d75eea408ed68db0230e891, type: 3}
+  - ExpressionName: Sad
+    Sprite: {fileID: 21300000, guid: 452b9fc5b25a33640b77ff1bd2c7d992, type: 3}
+  - ExpressionName: Thinking
+    Sprite: {fileID: 21300000, guid: 9ed39b9e46bbd5840a17e9082c34e232, type: 3}
+  - ExpressionName: Surprised
+    Sprite: {fileID: 21300000, guid: d007ce05e28534b40ba3cb1d584461e3, type: 3}

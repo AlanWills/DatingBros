@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 93b5287f44bb2224393fb018ccb93f4a
+guid: 1901b61dbffbc1a47a5be819a63b8569
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1504041303872488470
-    second: Kyle_Neutral_0
+      213: -4284284472798456578
+    second: Linda_Expressions_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,23 +126,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kyle_Neutral_0
+      name: Linda_Expressions_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1024
-        height: 1536
+        y: 512
+        width: 341
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aeb3a232762902be0800000000000000
-      internalID: -1504041303872488470
+      spriteID: 49f910dad0d351443b41b950e81a65d6
+      internalID: 406135168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linda_Expressions_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 512
+        width: 341
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd42e52c3ad423438c935c22bf7d52f
+      internalID: -1244428466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linda_Expressions_2
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 512
+        width: 341
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c33462f71d017446ba43c07d68c2ad2
+      internalID: 1108721324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linda_Expressions_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 341
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e17bfbeb02469449aebf47c5b137425
+      internalID: -2045381091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linda_Expressions_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 341
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb95ef55528af14289ba08060495152
+      internalID: -1293075223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linda_Expressions_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 341
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8eaeb93ad36dfc4c918e019ac3a0870
+      internalID: -2090062685
       vertices: []
       indices: 
       edges: []
@@ -151,7 +261,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e88db863dc2566949bcf83a37d808cdd
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +271,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kyle_Neutral_0: -1504041303872488470
+      Linda_Expressions_0: 406135168
+      Linda_Expressions_1: -1244428466
+      Linda_Expressions_2: 1108721324
+      Linda_Expressions_3: -2045381091
+      Linda_Expressions_4: -1293075223
+      Linda_Expressions_5: -2090062685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

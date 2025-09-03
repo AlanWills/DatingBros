@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 93b5287f44bb2224393fb018ccb93f4a
+guid: 452b9fc5b25a33640b77ff1bd2c7d992
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1504041303872488470
-    second: Kyle_Neutral_0
+      213: -2492403039874811332
+    second: Mark_Sad_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kyle_Neutral_0
+      name: Mark_Sad_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aeb3a232762902be0800000000000000
-      internalID: -1504041303872488470
+      spriteID: c3a782bf3a4396dd0800000000000000
+      internalID: -2492403039874811332
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kyle_Neutral_0: -1504041303872488470
+      Mark_Sad_0: -2492403039874811332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

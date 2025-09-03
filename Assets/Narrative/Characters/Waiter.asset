@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8144787584063715095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9017d5fefe41da9e390cc477042789, type: 3}
+  m_Name: Character2DArtComponent
+  m_EditorClassIdentifier: 
+  defaultExpression: {fileID: 21300000, guid: 18d3883bab00b84468527304787e2e87, type: 3}
+  expressions:
+  - ExpressionName: Neutral
+    Sprite: {fileID: 21300000, guid: 18d3883bab00b84468527304787e2e87, type: 3}
+  - ExpressionName: Happy
+    Sprite: {fileID: 21300000, guid: 90f7ec6c34fef034694f830bdadfbb23, type: 3}
 --- !u!114 &-4722841194390549399
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c713fb185e69f24e820cf3e25c04a0e, type: 3}
   m_Name: Waiter
   m_EditorClassIdentifier: 
-  components: []
+  components:
+  - {fileID: -8144787584063715095}
   guid: 5
   characterName: {fileID: 7576872047213560198}
   defaultUIPosition: 1
