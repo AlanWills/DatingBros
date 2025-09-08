@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2c7750ca0e346ee9cd45dcde81b772b, type: 3}
+  m_Name: NarrativeRuntimeDebugMenu
+  m_EditorClassIdentifier: 
+  displayName: Narrative Runtime
+  menuPriority: 0
+  debugNext: {fileID: 11400000, guid: 86fbe54efcebe1246ace6ee4fbddae61, type: 2}
+  debugRestart: {fileID: 11400000, guid: 29734e13da206f2449f6ba49e0056b53, type: 2}
+  debugFinish: {fileID: 11400000, guid: f95d3e81be65e324e8a40095f8ebbd40, type: 2}

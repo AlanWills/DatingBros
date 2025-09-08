@@ -423,7 +423,10 @@ MonoBehaviour:
       _node: {fileID: -7409196082737292512}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: ' '
+        node: {fileID: 1246254848051403225}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
@@ -3548,11 +3551,12 @@ MonoBehaviour:
   - {fileID: 5653981497973870128}
   - {fileID: 6308296655062087724}
   - {fileID: 7010361994088207424}
+  - {fileID: 1246254848051403225}
   startNode: {fileID: -3594008900606376535}
   parameters:
   - {fileID: -6640278295426809214}
   - {fileID: -7792473750725301583}
-  finishNode: {fileID: -7409196082737292512}
+  finishNode: {fileID: 1246254848051403225}
 --- !u!114 &134410294142024340
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3815,6 +3819,47 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+--- !u!114 &1246254848051403225
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f832778d620d9404cbb89643ccb55b35, type: 3}
+  m_Name: Finish
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 16040, y: 248}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 1246254848051403225}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -7409196082737292512}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 1246254848051403225}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 35948438-fa64-4afc-9117-1fa03da2f104
 --- !u!114 &1365444076087788952
 MonoBehaviour:
   m_ObjectHideFlags: 1

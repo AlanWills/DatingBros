@@ -255,6 +255,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e605c80d2c1130047b4f2b11681eb5c9
+    m_Address: NarrativeDebug
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e8b4702366d0e4e53b7c4a2fb332c869
     m_Address: Assets/Narrative/Backgrounds/BackgroundCatalogue.asset
     m_ReadOnly: 0
