@@ -51,7 +51,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-9125335469070431261
 MonoBehaviour:
@@ -122,7 +122,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &-8947713363841148047
 MonoBehaviour:
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14136, y: 584}
+  position: {x: 14136, y: 568}
   ports:
     keys:
     - ' '
@@ -281,7 +281,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-8718201335236677374
 MonoBehaviour:
@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 13912, y: 584}
+  position: {x: 13912, y: 568}
   ports:
     keys:
     - ' '
@@ -334,7 +334,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &-8456253932722189719
 MonoBehaviour:
@@ -518,7 +518,7 @@ MonoBehaviour:
   dialogueType: 1
   uiPosition: 0
   dialogueTokens: []
-  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
   isLocalised: 0
 --- !u!114 &-8157673864640219504
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10936, y: 584}
+  position: {x: 10936, y: 568}
   ports:
     keys:
     - ' '
@@ -627,7 +627,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Neutral
   isLocalised: 0
 --- !u!114 &-8070267692303614567
 MonoBehaviour:
@@ -916,7 +916,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &-7514656647075086146
 MonoBehaviour:
@@ -970,7 +970,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &-7495565245351216686
 MonoBehaviour:
@@ -1027,6 +1027,112 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
   isLocalised: 0
+--- !u!114 &-7486032408746844607
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 29832, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -7486032408746844607}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 4986401127872344244}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -7486032408746844607}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 1742511775704399789}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 10c41081-a74e-4978-b9e1-e7fac61c03a9
+  dialogue: "He doesn\u2019t seem to realise what I want."
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Sad
+  isLocalised: 0
+--- !u!114 &-7475121388531365592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 28264, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -7475121388531365592}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -39450692861875986}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -7475121388531365592}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -3486293928614271108}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 39f8bf1b-c9d6-4080-97c4-0647bf81a882
+  dialogue: Which kind of leads me to <b>why</b> I wanted to meet, really.
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Worried
+  isLocalised: 0
 --- !u!114 &-7469572923574622348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1078,7 +1184,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-7254130202654923185
 MonoBehaviour:
@@ -1131,7 +1237,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &-7242049991456191934
 MonoBehaviour:
@@ -1240,7 +1346,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Surprised
   isLocalised: 0
 --- !u!114 &-7008575858272910454
 MonoBehaviour:
@@ -1409,7 +1515,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &-6835348326334041552
 MonoBehaviour:
@@ -1521,7 +1627,7 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &-6713330523184517714
 MonoBehaviour:
@@ -1574,7 +1680,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &-6544495601894746275
 MonoBehaviour:
@@ -1774,7 +1880,7 @@ MonoBehaviour:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &-6147168417527630757
 MonoBehaviour:
@@ -1942,6 +2048,62 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: Happy
+  isLocalised: 0
+--- !u!114 &-5859777520623265679
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 28936, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -5859777520623265679}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 4851713727146235871}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -5859777520623265679}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 8483135736214576842}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 1ba894d4-23ce-4b27-927e-26582eff6ee9
+  dialogue: "A nagging feeling that had been at the back of {KYLE}\u2019s mind starts
+    to take fuller shape and there\u2019s a sinking feeling in his stomach."
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens:
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
   isLocalised: 0
 --- !u!114 &-5856748659658603786
@@ -1994,7 +2156,7 @@ MonoBehaviour:
   dialogueType: 1
   uiPosition: 1
   dialogueTokens: []
-  character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   expression: 
   isLocalised: 0
 --- !u!114 &-5788968939324957663
@@ -2068,7 +2230,7 @@ MonoBehaviour:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-5592995397677834394
 MonoBehaviour:
@@ -2124,7 +2286,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &-5561772515438630225
 MonoBehaviour:
@@ -2193,7 +2355,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &-5331735230475859713
 MonoBehaviour:
@@ -2318,7 +2480,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10440, y: 488}
+  position: {x: 10440, y: 520}
   ports:
     keys:
     - ' '
@@ -2361,7 +2523,61 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
+  isLocalised: 0
+--- !u!114 &-5272834070737488820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 29384, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -5272834070737488820}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 8483135736214576842}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -5272834070737488820}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 4986401127872344244}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 7e87b4f1-54d6-4416-bc1f-e7e89a987bab
+  dialogue: "I\u2019ve been dropping lots of hints you know and making sure he knows
+    I like the same stuff as him, hoping he\u2019d want to do something together."
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Sad
   isLocalised: 0
 --- !u!114 &-5183124445807968699
 MonoBehaviour:
@@ -2530,7 +2746,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-4962689744455888913
 MonoBehaviour:
@@ -2545,7 +2761,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 9704, y: 552}
+  position: {x: 9704, y: 584}
   ports:
     keys:
     - ' '
@@ -2811,6 +3027,23 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   expression: 
   isLocalised: 0
+--- !u!114 &-4556749240574514638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3a24f3fb6fe6e4688e36ee585eb858, type: 3}
+  m_Name: "I\u2019m Not Sure\u2026"
+  m_EditorClassIdentifier: 
+  id: "I\u2019m Not Sure\u2026"
+  conditions: []
+  invalidBehaviour: 0
+  displayText: "I\u2019m Not Sure\u2026"
+  dialogueType: 1
 --- !u!114 &-4366159461823229222
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2943,7 +3176,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &-4060980111450196130
 MonoBehaviour:
@@ -2958,7 +3191,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10936, y: 1064}
+  position: {x: 10936, y: 1080}
   ports:
     keys:
     - ' '
@@ -2989,14 +3222,14 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   guid: 5cb506ac-cce9-45e0-8967-c3d838d1f4c5
-  dialogue: Thank you, the Black Suit makes you look very dashing!
+  dialogue: Thank you, I like your Blazer too!
   localisationKey: {fileID: 0}
   currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-3877411348910455913
 MonoBehaviour:
@@ -3161,6 +3394,59 @@ MonoBehaviour:
   isConstant: 1
   constantValue: 1
   referenceValue: {fileID: 0}
+--- !u!114 &-3486293928614271108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 28488, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -3486293928614271108}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -7475121388531365592}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -3486293928614271108}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 4851713727146235871}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: eb96b23a-63b5-48f6-aa58-eabfa95a4631
+  dialogue: "I was wondering\u2026"
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Embarrassed
+  isLocalised: 0
 --- !u!114 &-3440871702851202853
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3228,7 +3514,7 @@ MonoBehaviour:
   m_Name: Set Int Value
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6696, y: 584}
+  position: {x: 6632, y: 600}
   ports:
     keys:
     - newValue
@@ -3417,6 +3703,23 @@ MonoBehaviour:
   conditions: []
   invalidBehaviour: 0
   displayText: French Onion Soup
+  dialogueType: 1
+--- !u!114 &-2780543519626873542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3a24f3fb6fe6e4688e36ee585eb858, type: 3}
+  m_Name: Absolutely!
+  m_EditorClassIdentifier: 
+  id: Absolutely!
+  conditions: []
+  invalidBehaviour: 0
+  displayText: Absolutely!
   dialogueType: 1
 --- !u!114 &-2751980452217962443
 MonoBehaviour:
@@ -3647,7 +3950,7 @@ MonoBehaviour:
   - key: KYLE
     token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-2523049290320710954
 MonoBehaviour:
@@ -3700,7 +4003,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &-2507222717120860164
 MonoBehaviour:
@@ -3810,7 +4113,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-2240931102631578075
 MonoBehaviour:
@@ -3863,7 +4166,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &-2183136440263783119
 MonoBehaviour:
@@ -4256,7 +4559,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Sad
   isLocalised: 0
 --- !u!114 &-1821787136167954036
 MonoBehaviour:
@@ -4271,7 +4574,7 @@ MonoBehaviour:
   m_Name: Set Int Value
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6696, y: 856}
+  position: {x: 6632, y: 856}
   ports:
     keys:
     - newValue
@@ -4412,8 +4715,8 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   guid: 4d0af647-2078-4e40-97f8-277963f4eac4
-  dialogue: "The waiter laughs weakly, but it\u2019s hard to escape how much of an
-    idiot {KYLE} has just made of himself."
+  dialogue: "The waiter laughs weakly, but it\u2019s not easy to escape how much
+    of an idiot {KYLE} has just made of himself."
   localisationKey: {fileID: 0}
   currentLanguage: {fileID: 0}
   dialogueType: 1
@@ -4555,7 +4858,7 @@ MonoBehaviour:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &-1060657901446365957
 MonoBehaviour:
@@ -4691,7 +4994,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
   choices:
   - {fileID: 9123627003248537450}
@@ -4842,7 +5145,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10936, y: 344}
+  position: {x: 10936, y: 312}
   ports:
     keys:
     - ' '
@@ -4880,7 +5183,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-561432088012198900
 MonoBehaviour:
@@ -5101,7 +5404,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Sad
   isLocalised: 0
 --- !u!114 &-488238033331207082
 MonoBehaviour:
@@ -5322,7 +5625,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Neutral
   isLocalised: 0
 --- !u!114 &-224144745444202512
 MonoBehaviour:
@@ -5434,7 +5737,66 @@ MonoBehaviour:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Thinking
+  isLocalised: 0
+--- !u!114 &-39450692861875986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 28040, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -39450692861875986}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 7636524598996016943}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -39450692861875986}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -7475121388531365592}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: fa363339-d5dc-472b-9cd0-d8c76782dd5b
+  dialogue: "{KYLE}, I\u2019m glad you had time to meet and thanks for all the info
+    and tips about {MARK}. I know you\u2019re his best friend after all, so thought:
+    who better?!"
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens:
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Happy
   isLocalised: 0
 --- !u!114 &-8154538463121684
 MonoBehaviour:
@@ -5661,6 +6023,19 @@ MonoBehaviour:
   - {fileID: 3890112159510453560}
   - {fileID: -3763005435810442755}
   - {fileID: -6014650966080680672}
+  - {fileID: 7636524598996016943}
+  - {fileID: -39450692861875986}
+  - {fileID: -7475121388531365592}
+  - {fileID: -3486293928614271108}
+  - {fileID: 4851713727146235871}
+  - {fileID: -5859777520623265679}
+  - {fileID: 8483135736214576842}
+  - {fileID: -5272834070737488820}
+  - {fileID: 4986401127872344244}
+  - {fileID: -7486032408746844607}
+  - {fileID: 1742511775704399789}
+  - {fileID: 2668767374337686308}
+  - {fileID: 3340125830273771593}
   startNode: {fileID: 1890443510371313216}
   parameters:
   - {fileID: 6699000150577103764}
@@ -5684,6 +6059,7 @@ MonoBehaviour:
   - {fileID: 3994810689150376859}
   - {fileID: -8154538463121684}
   - {fileID: -8009739647629927920}
+  - {fileID: 1000593263273361566}
   finishNode: {fileID: 0}
 --- !u!114 &109323230969767547
 MonoBehaviour:
@@ -5736,7 +6112,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &170675561732599041
 MonoBehaviour:
@@ -5751,7 +6127,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 9928, y: 552}
+  position: {x: 9928, y: 584}
   ports:
     keys:
     - ' '
@@ -5921,7 +6297,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &411614203263744187
 MonoBehaviour:
@@ -5991,7 +6367,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &681733187399175037
 MonoBehaviour:
@@ -6044,7 +6420,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &726239624252310574
 MonoBehaviour:
@@ -6184,8 +6560,24 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
+--- !u!114 &1000593263273361566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c9a38be80386d4ea8852ca12654382, type: 3}
+  m_Name: _newValue
+  m_EditorClassIdentifier: 
+  helpText: 
+  isConstant: 1
+  constantValue: 1
+  referenceValue: {fileID: 0}
 --- !u!114 &1107869726114081044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6337,7 +6729,7 @@ MonoBehaviour:
   m_Name: Set Int Value
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6696, y: 72}
+  position: {x: 6632, y: 24}
   ports:
     keys:
     - newValue
@@ -6394,7 +6786,7 @@ MonoBehaviour:
   m_Name: Set Int Value
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6632, y: 280}
+  position: {x: 6632, y: 296}
   ports:
     keys:
     - newValue
@@ -6544,7 +6936,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &1319251966847768779
 MonoBehaviour:
@@ -6694,7 +7086,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &1461982478894285082
 MonoBehaviour:
@@ -6971,7 +7363,60 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Sad
+  isLocalised: 0
+--- !u!114 &1742511775704399789
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 30056, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 1742511775704399789}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -7486032408746844607}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 1742511775704399789}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 2668767374337686308}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: ed5735fe-d993-4274-835f-71d8e3142c9a
+  dialogue: Which is where you come in!
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Happy
   isLocalised: 0
 --- !u!114 &1881634942464602327
 MonoBehaviour:
@@ -7024,7 +7469,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &1890443510371313216
 MonoBehaviour:
@@ -7272,7 +7717,7 @@ MonoBehaviour:
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
   isLocalised: 0
 --- !u!114 &2526928545134479252
@@ -7333,6 +7778,74 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
   isLocalised: 0
+--- !u!114 &2668767374337686308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e25cea1baa82e4caca71b36393455f, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 30296, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - Absolutely!
+    - "I\u2019m Not Sure\u2026"
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 2668767374337686308}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 1742511775704399789}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Absolutely!
+      _node: {fileID: 2668767374337686308}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 3340125830273771593}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: "I\u2019m Not Sure\u2026"
+      _node: {fileID: 2668767374337686308}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: e4034cf5-7037-427d-be20-25f31866a685
+  dialogue: Would you help me and try and convince {MARK} to ask me out?
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens:
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Embarrassed
+  isLocalised: 0
+  choices:
+  - {fileID: -2780543519626873542}
+  - {fileID: -4556749240574514638}
 --- !u!114 &2736415299864367776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7910,7 +8423,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &3327865590033072747
 MonoBehaviour:
@@ -7993,6 +8506,60 @@ MonoBehaviour:
   - Name: HasWallet
     Condition: {fileID: 11400000, guid: addba9fd6963f3a47a18e925036bfc44, type: 2}
     UseArgument: 0
+--- !u!114 &3340125830273771593
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e317c46dcf91148b66e32179d2a8ff, type: 3}
+  m_Name: Set Int Value
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 30616, y: 2088}
+  ports:
+    keys:
+    - newValue
+    - ' '
+    - 
+    values:
+    - _fieldName: newValue
+      _node: {fileID: 3340125830273771593}
+      _typeQualifiedName: Celeste.Parameters.IntReference, Celeste.Parameters, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ' '
+      _node: {fileID: 3340125830273771593}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Absolutely!
+        node: {fileID: 2668767374337686308}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 3340125830273771593}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: ea7ab4ac-d1bf-4eb1-952b-4aa6e50a79eb
+  value: {fileID: 11400000, guid: d7659bbe4e9300148b4169a1fd478729, type: 2}
+  newValue: {fileID: 1000593263273361566}
+  setMode: 1
 --- !u!114 &3394436298751865194
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8144,7 +8711,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &3652599604161568420
 MonoBehaviour:
@@ -8197,7 +8764,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &3674776505969290316
 MonoBehaviour:
@@ -8624,7 +9191,7 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
   choices:
   - {fileID: 5511106305235229000}
@@ -8866,6 +9433,61 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
   isLocalised: 0
+--- !u!114 &4851713727146235871
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 28712, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 4851713727146235871}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -3486293928614271108}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 4851713727146235871}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -5859777520623265679}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 958d513c-7a87-4556-8d7e-270dbba15f02
+  dialogue: Would you be able to put in a good word for me with {MARK}?
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens:
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Worried
+  isLocalised: 0
 --- !u!114 &4865950462912924014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9000,6 +9622,59 @@ MonoBehaviour:
   - Name: HasWallet
     Condition: {fileID: 11400000, guid: addba9fd6963f3a47a18e925036bfc44, type: 2}
     UseArgument: 0
+--- !u!114 &4986401127872344244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 29608, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 4986401127872344244}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -5272834070737488820}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 4986401127872344244}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -7486032408746844607}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 91b55908-f0dd-497d-8e89-3e74b864316f
+  dialogue: "It\u2019s just\u2026"
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Worried
+  isLocalised: 0
 --- !u!114 &5004052775854271038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9052,7 +9727,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &5123567822064907825
 MonoBehaviour:
@@ -9216,7 +9891,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &5314869145358228756
 MonoBehaviour:
@@ -9231,7 +9906,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10936, y: 104}
+  position: {x: 10936, y: 56}
   ports:
     keys:
     - ' '
@@ -9269,7 +9944,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &5317557828212738163
 MonoBehaviour:
@@ -9340,7 +10015,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &5350494424041644220
 MonoBehaviour:
@@ -9448,7 +10123,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &5439477784778604320
 MonoBehaviour:
@@ -9501,7 +10176,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &5466581976982497063
 MonoBehaviour:
@@ -9533,7 +10208,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7288, y: -168}
+  position: {x: 7288, y: -200}
   ports:
     keys:
     - ' '
@@ -9573,7 +10248,7 @@ MonoBehaviour:
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &5511106305235229000
 MonoBehaviour:
@@ -9694,7 +10369,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 8072, y: 600}
+  position: {x: 8104, y: 600}
   ports:
     keys:
     - ' '
@@ -9732,7 +10407,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &5920009423423095612
 MonoBehaviour:
@@ -9785,7 +10460,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &5958381781786579549
 MonoBehaviour:
@@ -9838,7 +10513,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &6035574522710564033
 MonoBehaviour:
@@ -9964,7 +10639,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &6118925491124645053
 MonoBehaviour:
@@ -10017,7 +10692,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &6194801627722873614
 MonoBehaviour:
@@ -10239,7 +10914,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Sad
   isLocalised: 0
 --- !u!114 &6359526651343711122
 MonoBehaviour:
@@ -10467,7 +11142,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7960, y: -168}
+  position: {x: 7960, y: -184}
   ports:
     keys:
     - ' '
@@ -10505,7 +11180,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &6465790874083165621
 MonoBehaviour:
@@ -10621,7 +11296,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &6599085998159812228
 MonoBehaviour:
@@ -10674,7 +11349,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &6601525987156932700
 MonoBehaviour:
@@ -10720,16 +11395,16 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   guid: fa36722c-60e2-4f98-9a4b-b1dba0de4b76
-  dialogue: "It\u2019s hard to understate how badly this joke was misjudged and though
-    {KYLE} might argue it was clever, given how he truly knows so little about his
-    date, it goes down like a lead balloon."
+  dialogue: '{LINDA}, I barely know her!'
   localisationKey: {fileID: 0}
   currentLanguage: {fileID: 0}
   dialogueType: 1
   uiPosition: 0
-  dialogueTokens: []
+  dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &6660998538628977308
 MonoBehaviour:
@@ -10782,7 +11457,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &6673995015874467811
 MonoBehaviour:
@@ -10888,7 +11563,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Sad
   isLocalised: 0
 --- !u!114 &6699000150577103764
 MonoBehaviour:
@@ -10973,7 +11648,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 9480, y: 552}
+  position: {x: 9480, y: 584}
   ports:
     keys:
     - ' '
@@ -11029,7 +11704,7 @@ MonoBehaviour:
   m_Name: Animate Background
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 27560, y: 2024}
+  position: {x: 27560, y: 2040}
   ports:
     keys:
     - ' '
@@ -11051,7 +11726,10 @@ MonoBehaviour:
       _node: {fileID: 6832429535766373032}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: ' '
+        node: {fileID: 7636524598996016943}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
@@ -11162,7 +11840,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &7077316347240516618
 MonoBehaviour:
@@ -11275,7 +11953,7 @@ MonoBehaviour:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &7266295862698009454
 MonoBehaviour:
@@ -11328,7 +12006,7 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &7284057624922006215
 MonoBehaviour:
@@ -11642,6 +12320,68 @@ MonoBehaviour:
   uiPosition: 2
   dialogueTokens: []
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Sad
+  isLocalised: 0
+--- !u!114 &7636524598996016943
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 27816, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 7636524598996016943}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 6832429535766373032}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 7636524598996016943}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -39450692861875986}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 6538aaaa-8713-42e1-86a4-ae7015ca58f9
+  dialogue: "As {LINDA} and {KYLE} leave the restaurant, the waiter\u2019s incredibly
+    French valedictions following them, {LINDA} turns to {KYLE}."
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
   isLocalised: 0
 --- !u!114 &7727399776842769340
@@ -11697,7 +12437,7 @@ MonoBehaviour:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &7810279669193176907
 MonoBehaviour:
@@ -11821,7 +12561,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 8072, y: 344}
+  position: {x: 8104, y: 344}
   ports:
     keys:
     - ' '
@@ -11916,7 +12656,7 @@ MonoBehaviour:
   uiPosition: 1
   dialogueTokens: []
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &8135488442799871039
 MonoBehaviour:
@@ -12022,7 +12762,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &8351861370184877979
 MonoBehaviour:
@@ -12081,6 +12821,64 @@ MonoBehaviour:
   value: {fileID: 11400000, guid: d7659bbe4e9300148b4169a1fd478729, type: 2}
   newValue: {fileID: -5561772515438630225}
   setMode: 1
+--- !u!114 &8483135736214576842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 29160, y: 2040}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 8483135736214576842}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -5859777520623265679}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 8483135736214576842}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -5272834070737488820}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: dfdb29bc-c937-4acd-b6a8-ae11c63629c7
+  dialogue: "After all, why would {LINDA} agree to go on a date with me?  We\u2019re
+    nothing alike - even {MARK} knew that."
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 2
+  uiPosition: 0
+  dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: Thinking
+  isLocalised: 0
 --- !u!114 &8590125220589789169
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12132,7 +12930,7 @@ MonoBehaviour:
   uiPosition: 0
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
-  expression: 
+  expression: Happy
   isLocalised: 0
 --- !u!114 &8655229593085452963
 MonoBehaviour:
