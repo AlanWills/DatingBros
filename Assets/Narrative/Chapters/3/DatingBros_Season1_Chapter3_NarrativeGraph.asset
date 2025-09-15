@@ -283,6 +283,59 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
   expression: Happy
   isLocalised: 0
+--- !u!114 &-8770416335427699417
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 32184, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -8770416335427699417}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -4139778525714638731}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -8770416335427699417}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -390493814821157474}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 082c8ee3-b0dd-4c09-9284-cd2e852efdf7
+  dialogue: Oh, alright then.
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 0
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-8718201335236677374
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1293,6 +1346,59 @@ MonoBehaviour:
   uiPosition: 3
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  expression: 
+  isLocalised: 0
+--- !u!114 &-7063287926743547200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 32856, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -7063287926743547200}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -1496252161465950130}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -7063287926743547200}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 6268902487766452238}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 0e3d92d1-c608-4377-b230-f26e17d004db
+  dialogue: "I mean, what\u2019s the worst that can happen, right?"
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 0
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   expression: 
   isLocalised: 0
 --- !u!114 &-7059313787192304886
@@ -2414,6 +2520,62 @@ MonoBehaviour:
   value: {fileID: 11400000, guid: 4c2ec9c35a53ac14fb460f481dc8f808, type: 2}
   newValue: {fileID: 1121639994217882639}
   setMode: 2
+--- !u!114 &-5326205960464549233
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 31288, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -5326205960464549233}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -5133182095991497462}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -5326205960464549233}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -2903155149142641688}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: e6dba243-095e-44b5-a044-7995aede415b
+  dialogue: "He chuckles wryly to himself, given how this particular \u201Cdate\u201D
+    has turned out, but the joke seems lost on {LINDA} who continues to beg."
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5280896063422235779
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2638,6 +2800,59 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: b42fe6fd4c58be144b0489f53e1add69, type: 2}
   expression: 
   isLocalised: 0
+--- !u!114 &-5133182095991497462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 31064, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -5133182095991497462}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 8904523062461551564}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -5133182095991497462}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -5326205960464549233}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 7c067d23-860e-444c-b4d6-76657bec800b
+  dialogue: "I mean, I\u2019m clearly no expert!"
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 0
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-5132766192007330454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2800,6 +3015,64 @@ MonoBehaviour:
   dialogueType: 1
   uiPosition: 3
   dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  expression: 
+  isLocalised: 0
+--- !u!114 &-4911904793100917586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 31128, y: 2072}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -4911904793100917586}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -469466551096336836}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -4911904793100917586}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 944239506074981474}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: ff75c642-b8f3-40e1-ac7f-243f2c18d33d
+  dialogue: Despite feeling a little stung at this misunderstanding, {KYLE} is sincere
+    and {LINDA} can sense it.
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens:
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   - key: LINDA
     token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
@@ -3178,6 +3451,114 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   expression: Embarrassed
   isLocalised: 0
+--- !u!114 &-4210277155656386172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 34216, y: 2136}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -4210277155656386172}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 4129985345184825278}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -4210277155656386172}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -149361606811557579}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 2cdaf559-8c35-40b3-b4dd-4cf9548a3cac
+  dialogue: "Man, she even liked {MARK}\u2019s restaurant choice."
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 2
+  uiPosition: 0
+  dialogueTokens:
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: Thinking
+  isLocalised: 0
+--- !u!114 &-4139778525714638731
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 31960, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -4139778525714638731}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -3716566509090409209}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -4139778525714638731}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -8770416335427699417}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 199f29ec-c18e-43be-8f6a-aaa466a21780
+  dialogue: Eventually, he capitulates.
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-4060980111450196130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3378,6 +3759,64 @@ MonoBehaviour:
   value: {fileID: 11400000, guid: 345e3edd5ea430e4399d4fd4198cb4ee, type: 2}
   newValue: {fileID: -8154538463121684}
   setMode: 0
+--- !u!114 &-3716566509090409209
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 31736, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -3716566509090409209}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -2903155149142641688}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -3716566509090409209}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -4139778525714638731}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: c68a20c7-344b-4ddc-bd52-d489e90535b1
+  dialogue: '{LINDA} looks so pleadingly at him that {KYLE} finds it hard to say
+    no.'
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-3509683685351736553
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3575,6 +4014,61 @@ MonoBehaviour:
   invalidBehaviour: 0
   displayText: Escargot
   dialogueType: 1
+--- !u!114 &-2903155149142641688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 31512, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -2903155149142641688}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -5326205960464549233}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -2903155149142641688}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -3716566509090409209}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 25ce6193-47f2-428a-bda9-d59e3759c4be
+  dialogue: "Pleeeeaaaaaaassseee, {KYLE}\u2026"
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 0
+  dialogueTokens:
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: Embarrassed
+  isLocalised: 0
 --- !u!114 &-2850070297825635106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4618,6 +5112,59 @@ MonoBehaviour:
   value: {fileID: 11400000, guid: d7659bbe4e9300148b4169a1fd478729, type: 2}
   newValue: {fileID: 5842349834311092597}
   setMode: 2
+--- !u!114 &-1496252161465950130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 32632, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -1496252161465950130}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -390493814821157474}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -1496252161465950130}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -7063287926743547200}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 0640dbb5-dd38-4d01-be65-282982434f89
+  dialogue: Oh, thank you, thank you, thank you, thank you!
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Happy
+  isLocalised: 0
 --- !u!114 &-1362321360061114874
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5132,6 +5679,63 @@ MonoBehaviour:
   isConstant: 1
   constantValue: 1
   referenceValue: {fileID: 0}
+--- !u!114 &-584424802164961686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 33544, y: 2136}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -584424802164961686}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 7604958502076822567}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -584424802164961686}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 2508140972714358457}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 8843e6d3-6f2d-431c-83b9-c92ffc27edb7
+  dialogue: Thanks again, {KYLE}, you know, for agreeing to help with {MARK}.
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens:
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-561476955955063058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5463,6 +6067,112 @@ MonoBehaviour:
   value: {fileID: 11400000, guid: d7659bbe4e9300148b4169a1fd478729, type: 2}
   newValue: {fileID: -3509683685351736553}
   setMode: 1
+--- !u!114 &-469466551096336836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 30904, y: 2072}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -469466551096336836}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 3340125830273771593}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -469466551096336836}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -4911904793100917586}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 93e7cb0c-99d1-43db-993c-097720def517
+  dialogue: Of course I can help!
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 0
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: 
+  isLocalised: 0
+--- !u!114 &-390493814821157474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 32408, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -390493814821157474}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -8770416335427699417}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -390493814821157474}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -1496252161465950130}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 6979dea0-e76f-4614-b576-ed5a2f7dd725
+  dialogue: Really?!
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &-347623744163822163
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5736,6 +6446,60 @@ MonoBehaviour:
   dialogueTokens:
   - key: MARK
     token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: Thinking
+  isLocalised: 0
+--- !u!114 &-149361606811557579
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 34440, y: 2136}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: -149361606811557579}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -4210277155656386172}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: -149361606811557579}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 3097039429658147661}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 5608bfb2-e7c6-49dc-9446-f415ab3774f2
+  dialogue: "I swear, she could actually be perfect for him and he\u2019s never even
+    realised it\u2026"
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 2
+  uiPosition: 0
+  dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   expression: Thinking
   isLocalised: 0
@@ -6036,6 +6800,30 @@ MonoBehaviour:
   - {fileID: 1742511775704399789}
   - {fileID: 2668767374337686308}
   - {fileID: 3340125830273771593}
+  - {fileID: -469466551096336836}
+  - {fileID: -4911904793100917586}
+  - {fileID: 944239506074981474}
+  - {fileID: 160803886609590565}
+  - {fileID: 5788656373848954959}
+  - {fileID: 4379185203201275648}
+  - {fileID: 8904523062461551564}
+  - {fileID: -5133182095991497462}
+  - {fileID: -5326205960464549233}
+  - {fileID: -2903155149142641688}
+  - {fileID: -3716566509090409209}
+  - {fileID: -4139778525714638731}
+  - {fileID: -8770416335427699417}
+  - {fileID: -390493814821157474}
+  - {fileID: -1496252161465950130}
+  - {fileID: -7063287926743547200}
+  - {fileID: 6268902487766452238}
+  - {fileID: 7604958502076822567}
+  - {fileID: -584424802164961686}
+  - {fileID: 2508140972714358457}
+  - {fileID: 4129985345184825278}
+  - {fileID: -4210277155656386172}
+  - {fileID: -149361606811557579}
+  - {fileID: 3097039429658147661}
   startNode: {fileID: 1890443510371313216}
   parameters:
   - {fileID: 6699000150577103764}
@@ -6113,6 +6901,63 @@ MonoBehaviour:
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   expression: Embarrassed
+  isLocalised: 0
+--- !u!114 &160803886609590565
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 31576, y: 2072}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 160803886609590565}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 944239506074981474}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 160803886609590565}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 5788656373848954959}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 387793ca-a51d-4678-bbeb-b1d41ec07946
+  dialogue: I think {LINDA} and {MARK} would make a much better couple.
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 2
+  uiPosition: 0
+  dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &170675561732599041
 MonoBehaviour:
@@ -6508,6 +7353,59 @@ MonoBehaviour:
   dialogueTokens: []
   character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
   expression: 
+  isLocalised: 0
+--- !u!114 &944239506074981474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 31352, y: 2072}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 944239506074981474}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -4911904793100917586}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 944239506074981474}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 160803886609590565}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: a2bd4a1e-083e-4ef2-8adf-fad0589df670
+  dialogue: "I mean, it\u2019s not as if we were a good match, let\u2019s face it!"
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 2
+  uiPosition: 0
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: Thinking
   isLocalised: 0
 --- !u!114 &971103322471394264
 MonoBehaviour:
@@ -7720,6 +8618,59 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
   isLocalised: 0
+--- !u!114 &2508140972714358457
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 33768, y: 2136}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 2508140972714358457}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -584424802164961686}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 2508140972714358457}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 4129985345184825278}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 7376f02b-59a9-4f8e-aa88-3347b7072260
+  dialogue: Oh, and a great choice of restaurant!
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: Happy
+  isLocalised: 0
 --- !u!114 &2526928545134479252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7826,7 +8777,10 @@ MonoBehaviour:
       _node: {fileID: 2668767374337686308}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: ' '
+        node: {fileID: 4379185203201275648}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
@@ -8301,6 +9255,62 @@ MonoBehaviour:
   isConstant: 1
   constantValue: 1
   referenceValue: {fileID: 0}
+--- !u!114 &3097039429658147661
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 34664, y: 2136}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 3097039429658147661}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -149361606811557579}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 3097039429658147661}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: f4e95d25-bf51-445b-a77f-7425e877c7c1
+  dialogue: With that thought, he begins the short walk home, readying himself for
+    the interrogation about the date and wondering how he can explain {LINDA} might
+    actually have been the perfect fit for {MARK} all along.
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &3147352072245229066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8551,7 +9561,10 @@ MonoBehaviour:
       _node: {fileID: 3340125830273771593}
       _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: ' '
+        node: {fileID: -469466551096336836}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
@@ -9198,6 +10211,62 @@ MonoBehaviour:
   - {fileID: 3674776505969290316}
   - {fileID: -8424517030887704321}
   - {fileID: 8978571757656563015}
+--- !u!114 &4129985345184825278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 33992, y: 2136}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 4129985345184825278}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 2508140972714358457}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 4129985345184825278}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -4210277155656386172}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: ca249ba8-0fd7-402d-94bd-f8740f31a3fa
+  dialogue: She ducks into the taxi who quickly pulls away and {KYLE} is left alone,
+    smiling wryly.
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens:
+  - key: KYLE
+    token: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &4221621577049409179
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9320,6 +10389,61 @@ MonoBehaviour:
   dialogueTokens: []
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
+  isLocalised: 0
+--- !u!114 &4379185203201275648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 30616, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 4379185203201275648}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: "I\u2019m Not Sure\u2026"
+        node: {fileID: 2668767374337686308}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 4379185203201275648}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 8904523062461551564}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 3a8bd75c-b4dc-4815-a484-3a70891bb288
+  dialogue: I dunno {LINDA}...
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 0
+  dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: Embarrassed
   isLocalised: 0
 --- !u!114 &4483599117186882199
 MonoBehaviour:
@@ -10324,6 +11448,59 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
   expression: 
   isLocalised: 0
+--- !u!114 &5788656373848954959
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 31800, y: 2072}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 5788656373848954959}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 160803886609590565}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 5788656373848954959}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 7604958502076822567}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 8fafb9ab-9db7-44c0-9eb3-6e2135e11c1c
+  dialogue: Oh thank you!
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 2
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &5842349834311092597
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10807,6 +11984,61 @@ MonoBehaviour:
   value: {fileID: 11400000, guid: 4c2ec9c35a53ac14fb460f481dc8f808, type: 2}
   newValue: {fileID: 6699000150577103764}
   setMode: 0
+--- !u!114 &6268902487766452238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 33080, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 6268902487766452238}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: -7063287926743547200}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 6268902487766452238}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: 7604958502076822567}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 11016803-88a8-42a0-bc99-c5585f130f88
+  dialogue: "It\u2019s worth noting that this is one of 3 phrases you should never
+    say outloud, along with:\r\n\r\n\u2018How hard can it be?\u2019 \r\n\r\nand\u2026\r\n\r\n\u2018What
+    can possibly go wrong?\u2019\r\n"
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens: []
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &6295855964263043161
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12322,6 +13554,65 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
   expression: Sad
   isLocalised: 0
+--- !u!114 &7604958502076822567
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 33320, y: 2136}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 7604958502076822567}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 6268902487766452238}
+        reroutePoints: []
+      - fieldName: 
+        node: {fileID: 5788656373848954959}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 7604958502076822567}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -584424802164961686}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 3c3d6f97-9b65-48a0-9d21-f0ad12952c35
+  dialogue: At that moment, a taxi for {LINDA} pulls up and she readies herself to
+    depart.
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 3
+  dialogueTokens:
+  - key: LINDA
+    token: {fileID: 11400000, guid: 6dd9244eee0584f3a9843e249a289e0e, type: 2}
+  character: {fileID: 11400000, guid: 1ecbf9c58832e48829aadf38eb02caa3, type: 2}
+  expression: 
+  isLocalised: 0
 --- !u!114 &7636524598996016943
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12965,6 +14256,62 @@ MonoBehaviour:
   invalidBehaviour: 0
   displayText: Sure!
   dialogueType: 1
+--- !u!114 &8904523062461551564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4ce1ed97de08244a0f82ba4a0f1579, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 30840, y: 2392}
+  ports:
+    keys:
+    - ' '
+    - 
+    values:
+    - _fieldName: ' '
+      _node: {fileID: 8904523062461551564}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: 
+        node: {fileID: 4379185203201275648}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: 
+      _node: {fileID: 8904523062461551564}
+      _typeQualifiedName: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ' '
+        node: {fileID: -5133182095991497462}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  guid: 9e8704e3-1886-48f5-86b6-4f9736fe31b5
+  dialogue: "I\u2019m not sure if me getting involved in {MARK}\u2019s love life
+    is a good idea."
+  localisationKey: {fileID: 0}
+  currentLanguage: {fileID: 0}
+  dialogueType: 1
+  uiPosition: 0
+  dialogueTokens:
+  - key: MARK
+    token: {fileID: 11400000, guid: 42d0e1ee0ed7b4fa38c3cacce5e803b8, type: 2}
+  character: {fileID: 11400000, guid: b6560ec7f0b7448b796e32dfac3632f6, type: 2}
+  expression: Embarrassed
+  isLocalised: 0
 --- !u!114 &8978571757656563015
 MonoBehaviour:
   m_ObjectHideFlags: 1
