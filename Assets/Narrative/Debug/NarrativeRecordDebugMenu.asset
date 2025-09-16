@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a42d5964e660fcc4381aa29f1b25fd6d, type: 3}
   m_Name: NarrativeRecordDebugMenu
   m_EditorClassIdentifier: 
-  displayName: NarrativeRecord
+  displayName: Narrative Record
   menuPriority: 0
-  storyCatalogue: {fileID: 0}
-  narrativeRecord: {fileID: 0}
-  onContextLoadedEvent: {fileID: 0}
+  storyCatalogue: {fileID: 11400000, guid: 7503eda9ad8dac44fafe03c05ee58034, type: 2}
+  narrativeRecord: {fileID: 11400000, guid: 5199648fd01fabc4cb720882018e24e3, type: 2}
+  onContextLoadedEvent: {fileID: 11400000, guid: febfcfea603c38a48ada93ba3ca6d951, type: 2}
   saveNarrativeRecord: {fileID: 0}

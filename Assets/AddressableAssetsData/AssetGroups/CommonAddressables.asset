@@ -243,6 +243,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - CommonAddressables
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4bce6a9e914f884ca93a839436db509
+    m_Address: Assets/GameSystems/Prefabs/NetworkMessaging.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dbb3cd569da2da048b519baf210661e9
     m_Address: EngineSystemsDebug
     m_ReadOnly: 0
